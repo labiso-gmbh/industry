@@ -5,13 +5,14 @@
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # Cristina Paniagua Ramiro <crpan@odoo.com>, 2026.
+# OpenAI <noreply-mt-openai@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 18:16+0000\n"
-"PO-Revision-Date: 2026-10-07 09:33+0000\n"
-"Last-Translator: Cristina Paniagua Ramiro <crpan@odoo.com>\n"
+"POT-Creation-Date: 2026-11-13 18:21+0000\n"
+"PO-Revision-Date: 2026-11-19 08:43+0000\n"
+"Last-Translator: OpenAI <noreply-mt-openai@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-20/"
 "headhunter/pt/>\n"
 "Language: pt\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_about_us
@@ -464,6 +465,13 @@ msgstr ""
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid ""
+"<b>Localisation:</b> To specify job localisation, create the desired address "
+"as sub contact of your company and select it from the job offer"
+msgstr ""
+
+#. module: headhunter
+#: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
+msgid ""
 "<b>Locate the Candidate:</b> Find the new application within that Job "
 "Position in the back-end."
 msgstr ""
@@ -488,6 +496,13 @@ msgstr ""
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "<b>Opportunity Creation → Quotation/Sales Order → Invoicing.</b>"
+msgstr ""
+
+#. module: headhunter
+#: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
+msgid ""
+"<b>Public Sector:</b> Create, configure and select the appropriate price "
+"list on a quote or directly assign it to a customer for all future quotes."
 msgstr ""
 
 #. module: headhunter
@@ -1004,7 +1019,7 @@ msgstr ""
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.template_footer_mega
-msgid "<span class=\"o_force_ltr\">+1 650-691-3277</span>"
+msgid "<span class=\"o_force_ltr\">+1 650-555-0101</span>"
 msgstr ""
 
 #. module: headhunter
@@ -2048,6 +2063,11 @@ msgid ""
 msgstr ""
 
 #. module: headhunter
+#: model_terms:product.template,description:headhunter.product_product_11_product_template
+msgid "Assessment &amp; Psychometric Testing"
+msgstr ""
+
+#. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid ""
 "At any point, you can click <b>\"Send CV\"</b> to forward the documents in "
@@ -2253,7 +2273,7 @@ msgstr ""
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.template_footer_mega
 msgid "Contact"
-msgstr ""
+msgstr "Contacto"
 
 #. module: headhunter
 #: model:website.page,name:headhunter.page_contactus
@@ -2346,6 +2366,11 @@ msgid "Decisions"
 msgstr ""
 
 #. module: headhunter
+#: model:product.template,name:headhunter.product_product_10_product_template
+msgid "Deep Reference & Background Check"
+msgstr ""
+
+#. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_home
 msgid ""
 "Deep-dive session with your board or executive team. We codify the mandate, "
@@ -2391,6 +2416,11 @@ msgstr ""
 #. module: headhunter
 #: model:ir.model.fields.selection,name:headhunter.x_status_bar_done_value
 msgid "Done"
+msgstr ""
+
+#. module: headhunter
+#: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
+msgid "Down payments based on percentage or amount take seconds to send."
 msgstr ""
 
 #. module: headhunter
@@ -2454,6 +2484,13 @@ msgid "Energy &amp; Utilities"
 msgstr ""
 
 #. module: headhunter
+#: model:sale.order.template,name:headhunter.sale_order_template_3
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_1
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_17
+msgid "Engagement & Market Intelligence"
+msgstr ""
+
+#. module: headhunter
 #: model:crm.tag,name:headhunter.crm_tag_9
 #: model_terms:hr.job,website_description:headhunter.hr_job_10
 msgid "Engineering"
@@ -2508,6 +2545,16 @@ msgid "Executive"
 msgstr ""
 
 #. module: headhunter
+#: model:product.template,name:headhunter.product_product_11_product_template
+msgid "Executive Leadership Assessment"
+msgstr ""
+
+#. module: headhunter
+#: model:product.template,name:headhunter.product_product_12_product_template
+msgid "Executive Search Placement Fee"
+msgstr ""
+
+#. module: headhunter
 #: model:ir.model.fields.selection,name:headhunter.x_recruitment_type_external_value
 msgid "External"
 msgstr ""
@@ -2546,6 +2593,13 @@ msgstr ""
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.template_footer_mega
 msgid "Follow us"
+msgstr ""
+
+#. module: headhunter
+#: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
+msgid ""
+"For products requiring manual delivery update like hiring candidate plan, "
+"adjust the sale order line delivered quantity and create a regular invoice."
 msgstr ""
 
 #. module: headhunter
@@ -2697,6 +2751,15 @@ msgid "In Recruitment"
 msgstr "Em Recrutamento"
 
 #. module: headhunter
+#: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
+msgid ""
+"In the case of indexed product price of first year package for example, "
+"proceed with down payments following agreed terms and once candidate is "
+"recruited, adjust the sale order line quantity and price with hiring package "
+"and generate your final invoice."
+msgstr ""
+
+#. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_about_us
 msgid "Industrial &amp; Manufacturing"
 msgstr ""
@@ -2814,6 +2877,11 @@ msgstr ""
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_home
 msgid "Majority of senior placements"
+msgstr ""
+
+#. module: headhunter
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_11
+msgid "Market Intelligence & Mapping"
 msgstr ""
 
 #. module: headhunter
@@ -3014,6 +3082,20 @@ msgid "Pipeline Status"
 msgstr ""
 
 #. module: headhunter
+#: model:product.template,description_sale:headhunter.product_product_12_product_template
+msgid ""
+"Placement fee calculated as X% of the candidate's first-year guaranteed "
+"gross compensation."
+msgstr ""
+
+#. module: headhunter
+#: model:sale.order.template,name:headhunter.sale_order_template_5
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_24
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_8
+msgid "Placement, Onboarding & Closing"
+msgstr ""
+
+#. module: headhunter
 #: model:mail.template,subject:headhunter.mail_template_60
 msgid ""
 "Potential Applicant for {{ (object.job_id.name + ' ') if object.job_id else "
@@ -3046,7 +3128,7 @@ msgstr ""
 #. module: headhunter
 #: model:crm.tag,name:headhunter.crm_tag_23
 msgid "Product"
-msgstr ""
+msgstr "Produto"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_about_us
@@ -3058,6 +3140,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:headhunter.hr_job_6
 #: model_terms:hr.job,website_description:headhunter.hr_job_7
 msgid "Progress bar"
+msgstr ""
+
+#. module: headhunter
+#: model:product.pricelist,name:headhunter.product_pricelist_2
+msgid "Public Sector"
 msgstr ""
 
 #. module: headhunter
@@ -3145,6 +3232,11 @@ msgid "Reserve"
 msgstr "Reservar"
 
 #. module: headhunter
+#: model:sale.order.template,name:headhunter.sale_order_template_1
+msgid "Retained Executive Search"
+msgstr ""
+
+#. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_home
 msgid "Revenues led by our placements"
 msgstr ""
@@ -3162,6 +3254,11 @@ msgid "Route displaying CV Sent Applicants"
 msgstr ""
 
 #. module: headhunter
+#: model:product.template,name:headhunter.product_product_13_product_template
+msgid "Salary & Compensation Benchmark"
+msgstr ""
+
+#. module: headhunter
 #: model:hr.department,name:headhunter.hr_department_3
 #: model:hr.talent.pool,name:headhunter.hr_talent_pool_2
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -3173,7 +3270,7 @@ msgstr "Vendas"
 #: model_terms:ir.ui.view,arch_db:headhunter.view_hr_job_form_inherit_view
 #: model_terms:ir.ui.view,arch_db:headhunter.view_hr_job_kanban_inherit_view
 msgid "Sales Order"
-msgstr ""
+msgstr "Ordem de venda"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.template_footer_mega
@@ -3289,6 +3386,13 @@ msgid "Soft dependency"
 msgstr ""
 
 #. module: headhunter
+#: model:sale.order.template,name:headhunter.sale_order_template_4
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_20
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_4
+msgid "Sourcing & Candidate Shortlisting"
+msgstr ""
+
+#. module: headhunter
 #: model_terms:hr.job,website_description:headhunter.hr_job_4
 #: model_terms:hr.job,website_description:headhunter.hr_job_6
 #: model_terms:hr.job,website_description:headhunter.hr_job_7
@@ -3334,6 +3438,16 @@ msgstr ""
 #: model:base.automation,name:headhunter.uninstall_hook_base_automation
 #: model:ir.actions.server,name:headhunter.uninstall_hook_action_server
 msgid "Talent Acquisition: Uninstall Hook"
+msgstr ""
+
+#. module: headhunter
+#: model:sale.order.template,name:headhunter.sale_order_template_2
+msgid "Talent Advisory & Market Mapping"
+msgstr ""
+
+#. module: headhunter
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_14
+msgid "Talent Pool Delivery"
 msgstr ""
 
 #. module: headhunter
@@ -3646,6 +3760,14 @@ msgstr ""
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid ""
+"You can as well as introduce a written interview stage during the "
+"recruitment process activating the dedicated setting, creating the different "
+"interview surveys and pointing the one applicable from the job position form."
+msgstr ""
+
+#. module: headhunter
+#: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
+msgid ""
 "You can generate sales orders directly from a job position or manually link "
 "opportunities, sales orders, and\n"
 "                    job positions. This flexibility ensures that regardless "
@@ -3727,7 +3849,7 @@ msgstr ""
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_contactus
-msgid "eg. john.doe@odoo.com"
+msgid "eg. john.doe@example.com"
 msgstr ""
 
 #. module: headhunter

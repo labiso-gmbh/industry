@@ -2,6 +2,7 @@
 
 import ast
 import html
+import json
 import logging
 import os
 import pathlib
@@ -58,28 +59,6 @@ USELESS_FIELDS = {
     ],
     'sale.order.line': ['qty_delivered', 'company_id'],
     'sign.template': ['name'],
-}
-
-MODELS_TO_UPDATE = {
-    "base.automation",
-    "ir.actions.act_window",
-    "ir.actions.report",
-    "ir.actions.server",
-    "ir.cron",
-    "ir.embedded.actions",
-    "ir.model",
-    "ir.access",
-    "ir.model.fields",
-    "ir.model.fields.selection",
-    "ir.module.module",
-    "ir.ui.menu",
-    "ir.ui.view",
-    "knowledge.article",
-    "portal.entry",
-    "template",
-    "theme.utils",
-    "website.assets",
-    "website.controller.page",
 }
 
 MODELS_WITH_USER_ID = {
@@ -166,11 +145,10 @@ def _has_valid_search(eval_string):
                 if (isinstance(func, ast.Attribute) and func.attr == 'search') or (
                     isinstance(func, ast.Name) and func.id == 'search'
                 ):
-                    has_limit_1 = any(
+                    return any(
                         kw.arg == 'limit' and isinstance(kw.value, ast.Constant) and kw.value.value == 1
                         for kw in call_node.keywords
                     )
-                    return has_limit_1
     return True
 
 
@@ -212,6 +190,7 @@ class TestEnv(IndustryCase):
         in_use_files = set()
         checked_records_with_user = {}
         manifest_content = None
+        xml_files = {}
         with_demo = self.env['ir.module.module'].search_count([('demo', '=', True)], limit=1)
         for root, dirs, files in os.walk(path):
             # sort the directory by alphabetical order so static directory is read first.
@@ -221,7 +200,10 @@ class TestEnv(IndustryCase):
                 ext = os.path.splitext(file_path)[1].lower()
                 if 'static/' in file_path and not any(p in file_path for p in ['src/js/', 'src/widget', 'src/scss', 'src/css', 'src/xml']):
                     static_files.add(os.path.relpath(file_path, start=get_industry_path()))
-                if ext not in ['.py', '.xml']:
+                if ext == '.json':
+                    self._check_static_ids_in_dashboard_file(file_name, file_path, module)
+                    continue
+                elif ext not in ['.py', '.xml']:
                     continue
                 if os.path.getsize(file_path) > MAX_FILE_SIZE:
                     raise "Max file size exceeded"
@@ -244,11 +226,10 @@ class TestEnv(IndustryCase):
                 except etree.XMLSyntaxError as e:
                     _logger.error("XML syntax error in file %s: %s", file_name, e)
                     return
+                xml_files[os.path.relpath(file_path, path)] = (tree, decoded_content)
 
                 self._check_xml_style(decoded_content, tree, module, file_name)
                 self._check_odoo_contact_data(decoded_content, file_name)
-                self._check_forcecreate_external_xmlid(tree, file_name, module)
-                self._check_update_status(tree, file_name)
                 self._check_trigger_field_ids_is_set(tree, file_name)
                 self._check_knowledge_article_is_locked(tree, file_name)
                 checked_records_with_user = self._check_user_is_set(tree, checked_records_with_user)
@@ -297,13 +278,22 @@ class TestEnv(IndustryCase):
                     _logger.warning("Unused static file: %s.", file)
             for file in in_use_files - static_files:
                 _logger.warning("No reference found for this file: %s.", file)
+            self._check_attachment_usage_in_xml(module, xml_files)
 
     def _check_static_files_usage_in_xml(self, root, in_use_files):
         for element in root.iter():
-            file_names = {element.attrib.get(key) for key in ['file', 'src', 'data-original-src']}
+            file_names = {element.attrib.get(key) for key in ["file", "src"]}
+
+            for text in (element.text, element.attrib.get("style")):
+                if text:
+                    file_names.update(
+                        re.findall(
+                            r"url\((?:&quot;|['\"])?(/?[\w.-]+/static/[^'\")&?]+)",
+                            text,
+                        ),
+                    )
+
             if element.text:
-                if element.get("name") == "cover_properties":
-                    file_names.update(re.findall(r"url\(['\"]?([^'\")]+)['\"]?\)", element.text))
                 file_names.update(re.findall(r'src="([^"]+)"', element.text))
 
             in_use_files.update(
@@ -311,7 +301,91 @@ class TestEnv(IndustryCase):
                     file
                     for file in file_names
                     if file and not file.startswith(('web', '/web', 'https', '/unsplash'))
-                }
+                },
+            )
+
+    def _check_attachment_usage_in_xml(self, module, xml_files):
+        """Warn about ir.attachment records that are never referenced in the module.
+
+        An attachment is considered used when its xmlid appears as a reference
+        (``ref="xmlid"``, ``ref('xmlid')``, ``%(xmlid)d``) or as a module-qualified
+        xmlid (e.g. ``/web/image/module.xmlid``) in any XML file of the module.
+        It is also considered used when its ``key`` is referenced through
+        ``/web/image/<key>``, ``/web/content/<key>`` or
+        ``/web_editor/image_shape/<key>/...``, since the website resolves
+        those urls on the attachment ``key``.
+        Records overriding an attachment of another module (e.g.
+        ``id="other_module.xmlid"``) are skipped: their usage is checked in
+        the module owning them.
+        """
+        all_content = "\n".join(content for _tree, content in xml_files.values())
+        for file_name, (root, _content) in xml_files.items():
+            for element in root.xpath("//record[@model='ir.attachment']"):
+                element_id = element.get("id")
+                if not element_id:
+                    _logger.warning("Found ir.attachment record without an id in %s/%s.", module, file_name)
+                    continue
+                if element.xpath(
+                    "field[@name='res_model'][normalize-space()]"
+                    " and field[@name='res_id'][@ref or @eval or @search or normalize-space()]",
+                ):
+                    # This attachment is linked to a specific record, so it is not considered unused.
+                    continue
+                xmlid_module, _dot, xmlid = element_id.rpartition(".")
+                if xmlid_module and xmlid_module != module:
+                    # This record overrides an attachment of another module, which is responsible for using it.
+                    continue
+                usage_re = (
+                    rf"""(?:\bref=["']|\bref\(\s*["']|%\()(?:{re.escape(module)}\.)?{re.escape(xmlid)}\b"""
+                    rf"""|(?<![\w.]){re.escape(module)}\.{re.escape(xmlid)}\b"""
+                )
+                if key := element.xpath("string(field[@name='key'])").strip():
+                    usage_re += rf"""|/(?:web/image|web/content|(?:web|html)_editor/image_shape)/{re.escape(key)}(?![\w.])"""
+                if not re.search(usage_re, all_content):
+                    _logger.warning(
+                        "Unused attachment %s defined in %s/%s.",
+                        element_id,
+                        module,
+                        file_name,
+                    )
+
+    def _check_static_ids_in_dashboard_file(self, filename, file_path, module):
+
+        invalid_domain_rules = []
+
+        def check_nodes(node):
+            if isinstance(node, dict):
+                for key, value in node.items():
+                    if key == "domain" and isinstance(value, list):
+                        for domain_rule in value:
+                            if not isinstance(domain_rule, (list, tuple)) or len(domain_rule) != 3:
+                                continue
+                            if (domain_rule[0].endswith(('id', 'ids'))) and \
+                                ((isinstance(domain_rule[2], int) and not isinstance(domain_rule[2], bool)) or
+                                (isinstance(domain_rule[2], list) and any(isinstance(val, int) for val in domain_rule[2]))):
+                                invalid_domain_rules.append(domain_rule)
+                    elif key == "context" and isinstance(value, dict):
+                        for ctx_key, ctx_value in value.items():
+                            if (ctx_key.endswith(('id', 'ids'))) and \
+                                ((isinstance(ctx_value, int) and not isinstance(ctx_value, bool)) or
+                                (isinstance(ctx_value, list) and any(isinstance(val, int) for val in ctx_value))):
+                                invalid_domain_rules.append(domain_rule)
+                    check_nodes(value)
+            elif isinstance(node, list):
+                for item in node:
+                    check_nodes(item)
+
+        with open(file_path, encoding="utf-8") as file:
+            data = json.load(file)
+            if all(key in data for key in ["sheets", "pivots", "lists"]):  # Proves this json is used as a dashboard
+                check_nodes(data)
+
+            if invalid_domain_rules:
+                _logger.warning("Static ids were found for the domain rules %s in the file %s from %s."
+                " Remove them by not using ids for the domain, or injecting the ids from a write function after loading the dashboard record.",
+                invalid_domain_rules,
+                filename,
+                module
             )
 
     def _check_index_html_images(self, module):
@@ -430,37 +504,6 @@ class TestEnv(IndustryCase):
             _logger.warning(
                 "One empty line at the end of %s is enough, please remove others.", file_name
             )
-
-    def _check_update_status(self, root, filename):
-        for record in root.xpath("//record") + root.xpath("//function") + root.xpath("//template"):
-            model = record.get('model') or record.tag
-            noupdate = False
-            parent = record.getparent()
-            data_tag = False
-            while parent is not None:  # Find nearest parent with 'noupdate' attribute (data tag or odoo header tag)
-                if 'noupdate' in parent.attrib:
-                    if data_tag:
-                        _logger.warning(
-                            "Avoid setting 'noupdate' around an already existing 'data' tag in %s",
-                            filename,
-                        )
-                    noupdate = noupdate or parent.attrib['noupdate'] in ('1', 'True', 'true')
-                if parent.tag == 'data':
-                    data_tag = True
-                parent = parent.getparent()
-
-            if model not in MODELS_TO_UPDATE and not noupdate:
-                _logger.warning(
-                    "Model %s should not be updated, please add 'noupdate=\"1\"' in the header of %s, or in a data tag around it.",
-                    model,
-                    filename,
-                )
-            elif model in MODELS_TO_UPDATE and noupdate:
-                _logger.warning(
-                    "Model %s should be updated, please remove 'noupdate=\"1\"' attribute tied to it in %s",
-                    model,
-                    filename,
-                )
 
     def _check_trigger_field_ids_is_set(self, root, file_name):
         for record in root.xpath("//record[@model='base.automation']"):
@@ -714,17 +757,6 @@ class TestEnv(IndustryCase):
                 file_name,
             )
 
-    def _check_forcecreate_external_xmlid(self, root, file_name, module):
-        for record in root.xpath("//record"):
-            record_id = record.get('id')
-            if '.' in record_id and not record_id.startswith(module + '.'):
-                if not record.get('forcecreate'):
-                    _logger.warning(
-                        "You should use forcecreate when using an external XML ID in %s: %s",
-                        file_name,
-                        record_id,
-                    )
-
     def _check_dates_are_relative(self, root, file_name):
         RELATIVE_DATES = [
             'Time.',
@@ -970,3 +1002,23 @@ class TestEnv(IndustryCase):
                         record_model,
                         file_name,
                     )
+
+    def _check_useless_html_attributes(self, root, file_name):
+        bad_attr = {
+            "data-original-src",
+            "data-original-id",
+            "data-mimetype-before-conversion",
+            "data-original-mimetype",
+            "data-attachment-id",
+        }
+        xpath_expr = " | ".join(
+            [f"//section[@{attr}] | //img[@{attr}] | //div[@{attr}] | //span[@{attr}]" for attr in bad_attr],
+        )
+        for element in root.xpath(xpath_expr):
+            _logger.warning(
+                "Useless HTML attribute '%s' found in <%s> in %s. "
+                "Remove unnecessary attributes added by studio or other tools.",
+                next(attr for attr in bad_attr if element.get(attr) is not None),
+                element.tag,
+                file_name,
+            )

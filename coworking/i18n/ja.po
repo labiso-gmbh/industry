@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-30 17:56+0000\n"
-"PO-Revision-Date: 2026-09-25 12:33+0000\n"
-"Last-Translator: Odoo Translation Bot <c3p@odoo.com>\n"
+"POT-Creation-Date: 2026-11-13 18:00+0000\n"
+"PO-Revision-Date: 2026-11-19 08:43+0000\n"
+"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-20/"
 "coworking/ja/>\n"
 "Language: ja\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.welcome_article_body
@@ -120,11 +120,13 @@ msgid ""
 "<a class=\"o_translate_inline\" "
 "href=\"mailto:hello@daylight.com\">hello@daylight.com</a>"
 msgstr ""
+"<a class=\"o_translate_inline\" href=\"mailto:hello@daylight.com\">"
+"hello@daylight.com</a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.footer_custom
 msgid ""
-"<a class=\"o_translate_inline\" href=\"tel:+3222903490\">+32 2 290 34 90</a>"
+"<a class=\"o_translate_inline\" href=\"tel:+16505550102\">+1 650-555-0102</a>"
 msgstr ""
 
 #. module: coworking
@@ -192,11 +194,13 @@ msgid ""
 "<a href=\"mailto:hello@daylight.com\" "
 "class=\"o_translate_inline\">hello@daylight.com</a>"
 msgstr ""
+"<a href=\"mailto:hello@daylight.com\" class=\"o_translate_inline\">"
+"hello@daylight.com</a>"
 
 #. module: coworking
 #: model_terms:ir.ui.view,arch_db:coworking.view_page_home
 msgid ""
-"<a href=\"tel:+3222903490\" class=\"o_translate_inline\">+32 2 290 34 90</a>"
+"<a href=\"tel:+16505550102\" class=\"o_translate_inline\">+1 650-555-0102</a>"
 msgstr ""
 
 #. module: coworking

@@ -3,14 +3,15 @@
 # * sports_club
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Dorin Hongu <dhongu@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-23 18:41+0000\n"
-"PO-Revision-Date: 2025-11-17 11:14+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Romanian <https://translate.odoo.com/projects/odoo-19/"
+"POT-Creation-Date: 2026-11-13 18:50+0000\n"
+"PO-Revision-Date: 2026-11-21 11:22+0000\n"
+"Last-Translator: Dorin Hongu <dhongu@gmail.com>\n"
+"Language-Team: Romanian <https://translate.odoo.com/projects/odoo-20/"
 "sports_club/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -26,6 +27,8 @@ msgid ""
 "\"Joining Padelo was the best decision for my weekends! Great matches, "
 "amazing people, and so many good times.\"<br/>"
 msgstr ""
+"„Înscrierea la Padelo a fost cea mai bună alegere pentru weekendurile mele! "
+"Meciuri grozave, oameni minunați și multe momente frumoase.”<br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -34,6 +37,10 @@ msgid ""
 "community here is so supportive. Whether I'm here for a competitive match or "
 "just a social game, I always have a fantastic time.\"<br/>"
 msgstr ""
+"„Cele mai bune terenuri pe care am jucat vreodată! Atmosfera este "
+"extraordinară, iar comunitatea de aici te susține mereu. Fie că vin pentru "
+"un meci competitiv sau doar pentru o partidă amicală, mă simt minunat de "
+"fiecare dată.”<br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -42,42 +49,55 @@ msgid ""
 "than in two years on my own. And the club's atmosphere is truly unique.\"<br/"
 ">"
 msgstr ""
+"\"Antrenorii sunt de-a dreptul excepționali. În doar trei luni am progresat "
+"mai mult decât în doi ani pe cont propriu. Iar atmosfera clubului este cu "
+"adevărat unică.\"<br/>"
 
 #. module: sports_club
 #: model:website.page,url:sports_club.page_coaches
 msgid "/coaches"
-msgstr ""
+msgstr "/coaches"
 
 #. module: sports_club
 #: model:website,contact_us_link_url:sports_club.website_industry
 #: model:website.page,url:sports_club.page_contactus
 msgid "/contactus"
-msgstr ""
+msgstr "/contactus"
 
 #. module: sports_club
 #: model:website.page,url:sports_club.page_our_club
 msgid "/our-club"
-msgstr ""
+msgstr "/our-club"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "08458 Barcelona"
-msgstr ""
+msgstr "08458 Barcelona"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "1 Court Booking"
-msgstr ""
+msgstr "1 Rezervarea terenului"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "1 Manage your Website"
+msgstr "1 Gestionează site-ul web"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "2 Friday Night Free Play"
-msgstr ""
+msgstr "2 Joc liber vineri seara"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "2 Send Newsletters<br/>"
+msgstr "2 Trimite buletine informative<br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "4 out of 5 stars"
-msgstr ""
+msgstr "4 din 5 stele"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -88,6 +108,8 @@ msgid ""
 "<a class=\"o_translate_inline btn btn-primary\" href=\"/contactus\">Join the "
 "club</a>"
 msgstr ""
+"<a class=\"o_translate_inline btn btn-primary\" href=\"/contactus\">Alătură-"
+"te clubului</a>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -97,6 +119,10 @@ msgid ""
 "animation-duration: 0.5s; animation-name: dummy;\" href=\"/"
 "appointment\">Book a court</a>"
 msgstr ""
+"<a class=\"o_translate_inline o_animate o_anim_fade_in o_visible "
+"o_anim_from_bottom btn btn-primary\" style=\"--wanim-intensity: 15; "
+"animation-duration: 0.5s; animation-name: dummy;\" href=\"/appointment\">"
+"Rezervă un teren</a>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -104,6 +130,8 @@ msgid ""
 "<a href=\"/contactus\" class=\"o_translate_inline btn btn-primary\">Book a "
 "slot -&amp;gt;</a>"
 msgstr ""
+"<a href=\"/contactus\" class=\"o_translate_inline btn btn-primary\">Rezervă "
+"un interval -&amp;gt;</a>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -111,6 +139,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">💡</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner informativ\">💡</i>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -118,6 +148,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\">🚀</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner informativ\">🚀</i>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -125,6 +157,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\">✅</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner de succes\">✅</i>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -138,6 +172,14 @@ msgid ""
 "class=\"o_custom_icons_wrap position-relative d-block flex-shrink-0 overflow-"
 "hidden\"/>"
 msgstr ""
+"<span class=\"flex-grow-1\">\n"
+"                                                            <span "
+"class=\"o_default_font_size\">Cum rezerv un meci sau o sesiune?</span>\n"
+"                                                            <br/>\n"
+"                                                        </span>\n"
+"                                                        <span "
+"class=\"o_custom_icons_wrap position-relative d-block flex-shrink-0 overflow-"
+"hidden\"/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -152,6 +194,15 @@ msgid ""
 "class=\"o_custom_icons_wrap position-relative d-block flex-shrink-0 overflow-"
 "hidden\"/>"
 msgstr ""
+"<span class=\"flex-grow-1\">\n"
+"                                                            <span "
+"class=\"o_default_font_size\">Unde sunt terenurile și care este programul "
+"vostru?</span>\n"
+"                                                            <br/>\n"
+"                                                        </span>\n"
+"                                                        <span "
+"class=\"o_custom_icons_wrap position-relative d-block flex-shrink-0 overflow-"
+"hidden\"/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -162,6 +213,11 @@ msgid ""
 "class=\"o_custom_icons_wrap position-relative d-block flex-shrink-0 overflow-"
 "hidden\"/>"
 msgstr ""
+"<span class=\"flex-grow-1\">Aveți cursuri pentru începători absoluți?</span>"
+"\n"
+"                                                        <span "
+"class=\"o_custom_icons_wrap position-relative d-block flex-shrink-0 overflow-"
+"hidden\"/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -171,6 +227,10 @@ msgid ""
 "class=\"o_custom_icons_wrap position-relative d-block flex-shrink-0 overflow-"
 "hidden\"/>"
 msgstr ""
+"<span class=\"flex-grow-1\">De ce echipament am nevoie</span>\n"
+"                                                        <span "
+"class=\"o_custom_icons_wrap position-relative d-block flex-shrink-0 overflow-"
+"hidden\"/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
@@ -183,6 +243,14 @@ msgid ""
 "padel&amp;nbsp;and the belief that sport brings people together.</span>\n"
 "                                                </span>"
 msgstr ""
+"<span class=\"h2-fs\">\n"
+"                                                    <span "
+"class=\"o_animated_text o_animate o_anim_fade_in o_visible "
+"o_anim_from_bottom\" style=\"--wanim-intensity: 15; animation-duration: "
+"0.5s;\">Născut dintr-o <span class=\"text-o-color-1\">pasiune comună</span> "
+"pentru padel&amp;nbsp;și convingerea că sportul îi apropie pe oameni.</span>"
+"\n"
+"                                                </span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -198,6 +266,16 @@ msgid ""
 "                                            </span>\n"
 "                                            Active members"
 msgstr ""
+"<span class=\"h2-fs\">\n"
+"                                                <strong>\n"
+"                                                    <span class=\"text-o-"
+"color-1\">500</span>\n"
+"                                                </strong>\n"
+"                                            </span>\n"
+"                                            <span class=\"h3-fs\">\n"
+"                                                <br/>\n"
+"                                            </span>\n"
+"                                            Membri activi"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -213,6 +291,16 @@ msgid ""
 "                                            </span>\n"
 "                                            Open every day"
 msgstr ""
+"<span class=\"h2-fs\">\n"
+"                                                <strong>\n"
+"                                                    <span class=\"text-o-"
+"color-1\">7/7</span>\n"
+"                                                </strong>\n"
+"                                            </span>\n"
+"                                            <span class=\"h3-fs\">\n"
+"                                                <br/>\n"
+"                                            </span>\n"
+"                                            Deschis în fiecare zi"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -228,6 +316,17 @@ msgid ""
 "                                            </span>\n"
 "                                            Indoor &amp; outdoor courts"
 msgstr ""
+"<span class=\"h2-fs\">\n"
+"                                                <strong>\n"
+"                                                    <span class=\"text-o-"
+"color-1\">8</span>\n"
+"                                                </strong>\n"
+"                                            </span>\n"
+"                                            <span class=\"h3-fs\">\n"
+"                                                <br/>\n"
+"                                            </span>\n"
+"                                            Terenuri acoperite și în aer "
+"liber"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -239,6 +338,12 @@ msgid ""
 "span>\n"
 "                                    </span>"
 msgstr ""
+"<span class=\"h2-fs\">\n"
+"                                        <span class=\"o_animated_text "
+"o_animate o_anim_fade_in o_visible o_anim_from_bottom\" style=\"--wanim-"
+"intensity: 15; animation-duration: 0.5s;\">Fă cunoștință cu antrenorii "
+"noștri certificați</span>\n"
+"                                    </span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_contactus
@@ -249,36 +354,42 @@ msgid ""
 "intensity: 15; animation-duration: 0.5s;\">Ready to join our club?</span>\n"
 "                                    </span>"
 msgstr ""
+"<span class=\"h2-fs\">\n"
+"                                        <span class=\"o_animated_text "
+"o_animate o_anim_fade_in o_visible o_anim_from_bottom\" style=\"--wanim-"
+"intensity: 15; animation-duration: 0.5s;\">Ești gata să te alături "
+"clubului?</span>\n"
+"                                    </span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.website_sale_products_oe_structure_website_sale_products_1
 msgid "<span class=\"h2-fs\">Our best products</span>"
-msgstr ""
+msgstr "<span class=\"h2-fs\">Cele mai bune produse ale noastre</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
 msgid "<span class=\"h3-fs\">Elena Kouznetsova</span>"
-msgstr ""
+msgstr "<span class=\"h3-fs\">Elena Kouznetsova</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
 msgid "<span class=\"h3-fs\">Fernando Belasteguín</span>"
-msgstr ""
+msgstr "<span class=\"h3-fs\">Fernando Belasteguín</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_contactus
 msgid "<span class=\"h3-fs\">Fill in the form</span>"
-msgstr ""
+msgstr "<span class=\"h3-fs\">Completează formularul</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
 msgid "<span class=\"h3-fs\">Julien Morel</span>"
-msgstr ""
+msgstr "<span class=\"h3-fs\">Julien Morel</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
 msgid "<span class=\"h3-fs\">Sofia Alves</span>"
-msgstr ""
+msgstr "<span class=\"h3-fs\">Sofia Alves</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -287,6 +398,9 @@ msgid ""
 "                                                        <strong>01</strong>\n"
 "                                                    </span>"
 msgstr ""
+"<span class=\"h4-fs text-o-color-1\">\n"
+"                                                        <strong>01</strong>\n"
+"                                                    </span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -295,6 +409,9 @@ msgid ""
 "                                                        <strong>02</strong>\n"
 "                                                    </span>"
 msgstr ""
+"<span class=\"h4-fs text-o-color-1\">\n"
+"                                                        <strong>02</strong>\n"
+"                                                    </span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -303,11 +420,14 @@ msgid ""
 "                                                        <strong>03</strong>\n"
 "                                                    </span>"
 msgstr ""
+"<span class=\"h4-fs text-o-color-1\">\n"
+"                                                        <strong>03</strong>\n"
+"                                                    </span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "<span class=\"h4-fs\">1-on-1 Coaching</span>"
-msgstr ""
+msgstr "<span class=\"h4-fs\">Antrenament individual</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
@@ -315,11 +435,13 @@ msgid ""
 "<span class=\"h4-fs\">1-on-1 Coaching</span>\n"
 "                                                        <br/>"
 msgstr ""
+"<span class=\"h4-fs\">Antrenament individual</span>\n"
+"                                                        <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "<span class=\"h4-fs\">Community Matches</span>"
-msgstr ""
+msgstr "<span class=\"h4-fs\">Meciuri între membri</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
@@ -327,12 +449,14 @@ msgid ""
 "<span class=\"h4-fs\">Community Matches</span>\n"
 "                                                        <br/>"
 msgstr ""
+"<span class=\"h4-fs\">Meciuri între membri</span>\n"
+"                                                        <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
 msgid "<span class=\"h4-fs\">Group Training Sessions</span>"
-msgstr ""
+msgstr "<span class=\"h4-fs\">Antrenamente de grup</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
@@ -342,11 +466,15 @@ msgid ""
 "class=\"o_translate_inline btn btn-primary\">Book a court</a>\n"
 "                                        </span>"
 msgstr ""
+"<span class=\"h6-fs\">\n"
+"                                            <a href=\"/appointment\" "
+"class=\"o_translate_inline btn btn-primary\">Rezervă un teren</a>\n"
+"                                        </span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "<span class=\"h6-fs\">Modern courts for all levels</span>"
-msgstr ""
+msgstr "<span class=\"h6-fs\">Terenuri moderne pentru toate nivelurile</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
@@ -360,6 +488,14 @@ msgid ""
 "fs\">The club</span>\n"
 "                                                </span>"
 msgstr ""
+"<span class=\"o_animated_text o_animate o_anim_fade_in o_visible "
+"o_anim_from_bottom\" style=\"--wanim-intensity: 15; animation-duration: "
+"0.5s;\">\n"
+"                                                    <span class=\"oi text-o-"
+"color-1\" data-icon=\"circle\" style=\"padding-right: 8px;\"/>\n"
+"                                                    <span class=\"h6-fs\">"
+"Clubul</span>\n"
+"                                                </span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -373,6 +509,14 @@ msgid ""
 "services</span>\n"
 "                                            </span>"
 msgstr ""
+"<span class=\"o_animated_text o_animate o_anim_fade_in o_visible "
+"o_anim_from_bottom\" style=\"--wanim-intensity: 15; animation-duration: "
+"0.5s;\">\n"
+"                                                <span class=\"oi text-o-"
+"color-1\" data-icon=\"circle\" style=\"padding-right: 8px;\"/>\n"
+"                                                <span class=\"h6-fs\">"
+"Serviciile noastre</span>\n"
+"                                            </span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_contactus
@@ -386,6 +530,14 @@ msgid ""
 "span>\n"
 "                                    </span>"
 msgstr ""
+"<span class=\"o_animated_text o_animate o_anim_fade_in o_visible "
+"o_anim_from_bottom\" style=\"--wanim-intensity: 15; animation-duration: "
+"0.5s;\">\n"
+"                                        <span class=\"oi text-o-color-1\" "
+"data-icon=\"circle\" style=\"padding-right: 8px;\"/>\n"
+"                                        <span class=\"h6-fs\">Alătură-te "
+"nouă</span>\n"
+"                                    </span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -399,6 +551,14 @@ msgid ""
 "span>\n"
 "                                    </span>"
 msgstr ""
+"<span class=\"o_animated_text o_animate o_anim_fade_in o_visible "
+"o_anim_from_bottom\" style=\"--wanim-intensity: 15; animation-duration: "
+"0.5s;\">\n"
+"                                        <span class=\"oi text-o-color-1\" "
+"data-icon=\"circle\" style=\"padding-right: 8px;\"/>\n"
+"                                        <span class=\"h6-fs\">Antrenorii "
+"noștri</span>\n"
+"                                    </span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -412,6 +572,14 @@ msgid ""
 "span>\n"
 "                                    </span>"
 msgstr ""
+"<span class=\"o_animated_text o_animate o_anim_fade_in o_visible "
+"o_anim_from_bottom\" style=\"--wanim-intensity: 15; animation-duration: "
+"0.5s;\">\n"
+"                                        <span class=\"oi text-o-color-1\" "
+"data-icon=\"circle\" style=\"padding-right: 8px;\"/>\n"
+"                                        <span class=\"h6-fs\">Testimoniale</"
+"span>\n"
+"                                    </span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -421,6 +589,10 @@ msgid ""
 "\">Book your next match, train with friends, and enjoy premium courts in a "
 "vibrant club atmosphere.</span>"
 msgstr ""
+"<span class=\"o_animated_text o_animate o_anim_fade_in o_visible "
+"o_anim_from_bottom\" style=\"--wanim-intensity: 15; animation-duration: "
+"0.5s;\">Rezervă următorul meci, antrenează-te cu prietenii și bucură-te de "
+"terenuri premium într-o atmosferă vibrantă.</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -429,6 +601,9 @@ msgid ""
 "o_anim_from_bottom\" style=\"--wanim-intensity: 15; animation-duration: 0.5s;"
 "\">Discover our club services</span>"
 msgstr ""
+"<span class=\"o_animated_text o_animate o_anim_fade_in o_visible "
+"o_anim_from_bottom\" style=\"--wanim-intensity: 15; animation-duration: "
+"0.5s;\">Descoperă serviciile clubului nostru</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -437,21 +612,24 @@ msgid ""
 "o_anim_from_bottom\" style=\"--wanim-intensity: 15; animation-duration: 0.5s;"
 "\">What our members say</span>"
 msgstr ""
+"<span class=\"o_animated_text o_animate o_anim_fade_in o_visible "
+"o_anim_from_bottom\" style=\"--wanim-intensity: 15; animation-duration: "
+"0.5s;\">Ce spun membrii noștri</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "<span class=\"o_small-fs text-o-color-1\">INFO</span>"
-msgstr ""
+msgstr "<span class=\"o_small-fs text-o-color-1\">INFORMAȚII</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "<span class=\"o_small-fs text-o-color-1\">NAVIGATION</span>"
-msgstr ""
+msgstr "<span class=\"o_small-fs text-o-color-1\">NAVIGARE</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "<span class=\"o_small-fs text-o-color-1\">OPENING HOURS</span>"
-msgstr ""
+msgstr "<span class=\"o_small-fs text-o-color-1\">PROGRAM</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -473,6 +651,22 @@ msgid ""
 "                                            </span>\n"
 "                                            <br/>"
 msgstr ""
+"<span class=\"o_small-fs\"/>\n"
+"                                            <span class=\"h6-fs\">\n"
+"                                                <span "
+"class=\"o_animated_text o_animate o_anim_fade_in o_visible "
+"o_anim_from_bottom\" style=\"--wanim-intensity: 15; animation-duration: "
+"0.5s;\">\n"
+"                                                    <span class=\"o_small-"
+"fs\">\n"
+"                                                        <span class=\"oi "
+"text-o-color-1\" data-icon=\"circle\" style=\"padding-right: 8px;\"/>\n"
+"                                                        <span class=\"h6-"
+"fs\">Centru de padel</span>\n"
+"                                                    </span>\n"
+"                                                </span>\n"
+"                                            </span>\n"
+"                                            <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -483,6 +677,11 @@ msgid ""
 "class=\"o_translate_inline\">Discover our story -&amp;gt;</a>\n"
 "                                            </span>"
 msgstr ""
+"<span class=\"o_text_highlight o_text_highlight_underline\" style=\"--text-"
+"highlight-color: var(--o-color-1); --text-highlight-width: 2px;\">\n"
+"                                                <a href=\"/our-club\" "
+"class=\"o_translate_inline\">Descoperă povestea noastră -&amp;gt;</a>\n"
+"                                            </span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -492,6 +691,10 @@ msgid ""
 "                                                <span class=\"h6-fs\">Best "
 "product</span>"
 msgstr ""
+"<span class=\"oi text-o-color-1\" data-icon=\"circle\" style=\"padding-"
+"right: 8px;\"/>\n"
+"                                                <span class=\"h6-fs\">Cel "
+"mai bun produs</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
@@ -501,6 +704,10 @@ msgid ""
 "                                                <span class=\"h6-fs\">Our "
 "services</span>"
 msgstr ""
+"<span class=\"oi text-o-color-1\" data-icon=\"circle\" style=\"padding-"
+"right: 8px;\"/>\n"
+"                                                <span class=\"h6-fs\">"
+"Serviciile noastre</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -509,6 +716,10 @@ msgid ""
 "right: 8px;\"/>\n"
 "                                            <span class=\"h6-fs\">FAQ</span>"
 msgstr ""
+"<span class=\"oi text-o-color-1\" data-icon=\"circle\" style=\"padding-"
+"right: 8px;\"/>\n"
+"                                            <span class=\"h6-fs\">Întrebări "
+"frecvente</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -518,6 +729,10 @@ msgid ""
 "                                            <span class=\"h6-fs\">The club</"
 "span>"
 msgstr ""
+"<span class=\"oi text-o-color-1\" data-icon=\"circle\" style=\"padding-"
+"right: 8px;\"/>\n"
+"                                            <span class=\"h6-fs\">Clubul</"
+"span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.website_sale_products_oe_structure_website_sale_products_1
@@ -526,6 +741,9 @@ msgid ""
 "right: 8px;\"/>\n"
 "                                <span class=\"h6-fs\">Equipment</span>"
 msgstr ""
+"<span class=\"oi text-o-color-1\" data-icon=\"circle\" style=\"padding-"
+"right: 8px;\"/>\n"
+"                                <span class=\"h6-fs\">Echipament</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -541,6 +759,16 @@ msgid ""
 "vxml=\"001\" data-snippet=\"s_badge\" style=\"font-weight: normal;\">Double "
 "strategy</span>"
 msgstr ""
+"<span class=\"s_badge badge o_animable o_small-fs text-bg-primary\" data-"
+"name=\"Badge\" data-vxml=\"001\" data-snippet=\"s_badge\" style=\"font-"
+"weight: normal;\">Poziționare</span>\n"
+"                                                <span class=\"s_badge badge "
+"o_animable o_small-fs text-\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" data-oe-zws-empty-inline=\"\"/>\n"
+"                                                <span class=\"s_badge badge "
+"o_animable o_small-fs text-bg-primary\" data-name=\"Badge\" data-"
+"vxml=\"001\" data-snippet=\"s_badge\" style=\"font-weight: normal;\">"
+"Strategie de dublu</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -553,6 +781,13 @@ msgid ""
 "vxml=\"001\" data-snippet=\"s_badge\" style=\"font-weight: normal;"
 "\">Recovery</span>"
 msgstr ""
+"<span class=\"s_badge badge o_animable o_small-fs text-bg-primary\" data-"
+"name=\"Badge\" data-vxml=\"001\" data-snippet=\"s_badge\" style=\"font-"
+"weight: normal;\">Nutriție sportivă</span>\n"
+"                                                <span class=\"s_badge badge "
+"o_animable o_small-fs text-bg-primary\" data-name=\"Badge\" data-"
+"vxml=\"001\" data-snippet=\"s_badge\" style=\"font-weight: normal;\">"
+"Recuperare</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -565,6 +800,13 @@ msgid ""
 "vxml=\"001\" data-snippet=\"s_badge\" style=\"font-weight: normal;\">Game "
 "tactics</span>"
 msgstr ""
+"<span class=\"s_badge badge o_animable o_small-fs text-bg-primary\" data-"
+"name=\"Badge\" data-vxml=\"001\" data-snippet=\"s_badge\" style=\"font-"
+"weight: normal;\">Strategie</span>\n"
+"                                                <span class=\"s_badge badge "
+"o_animable o_small-fs text-bg-primary\" data-name=\"Badge\" data-"
+"vxml=\"001\" data-snippet=\"s_badge\" style=\"font-weight: normal;\">Tactica "
+"jocului</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -581,11 +823,22 @@ msgid ""
 "vxml=\"001\" data-snippet=\"s_badge\" style=\"font-weight: normal;"
 "\">Beginner course</span>"
 msgstr ""
+"<span class=\"s_badge badge o_animable o_small-fs text-bg-primary\" data-"
+"name=\"Badge\" data-vxml=\"001\" data-snippet=\"s_badge\" style=\"font-"
+"weight: normal;\">Antrenamente</span>\n"
+"                                                <span class=\"s_badge badge "
+"o_animable o_small-fs text-bg-primary\" data-name=\"Badge\" data-"
+"vxml=\"001\" data-snippet=\"s_badge\" style=\"font-weight: normal;\">Program "
+"pentru juniori</span>\n"
+"                                                <span class=\"s_badge badge "
+"o_animable o_small-fs text-bg-primary\" data-name=\"Badge\" data-"
+"vxml=\"001\" data-snippet=\"s_badge\" style=\"font-weight: normal;\">Curs "
+"pentru începători</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_contactus
 msgid "<span class=\"s_website_form_label_content\">Phone Number</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">Număr de telefon</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_contactus
@@ -594,6 +847,9 @@ msgid ""
 "                                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Subiect</span>\n"
+"                                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_contactus
@@ -602,6 +858,10 @@ msgid ""
 "                                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">De ce vrei să te alături?</span>"
+"\n"
+"                                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_contactus
@@ -610,6 +870,9 @@ msgid ""
 "                                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Adresa dvs. de e-mail</span>\n"
+"                                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_contactus
@@ -618,21 +881,24 @@ msgid ""
 "                                                                <span "
 "class=\"s_website_form_mark\"> *</span>"
 msgstr ""
+"<span class=\"s_website_form_label_content\">Numele dvs.</span>\n"
+"                                                                <span "
+"class=\"s_website_form_mark\"> *</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
 msgid "<span class=\"text-o-color-1\">01</span>"
-msgstr ""
+msgstr "<span class=\"text-o-color-1\">01</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
 msgid "<span class=\"text-o-color-1\">02</span>"
-msgstr ""
+msgstr "<span class=\"text-o-color-1\">02</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
 msgid "<span class=\"text-o-color-1\">03</span>"
-msgstr ""
+msgstr "<span class=\"text-o-color-1\">03</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -640,6 +906,8 @@ msgid ""
 "<span class=\"text-o-color-1\">Performance Coach</span>\n"
 "                                                    <br/>"
 msgstr ""
+"<span class=\"text-o-color-1\">Antrenor de performanță</span>\n"
+"                                                    <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -647,6 +915,8 @@ msgid ""
 "<span class=\"text-o-color-1\">Tactical Coach</span>\n"
 "                                                    <br/>"
 msgstr ""
+"<span class=\"text-o-color-1\">Antrenor tactic</span>\n"
+"                                                    <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -654,6 +924,8 @@ msgid ""
 "<span class=\"text-o-color-1\">Technical Coach</span>\n"
 "                                                    <br/>"
 msgstr ""
+"<span class=\"text-o-color-1\">Antrenor tehnic</span>\n"
+"                                                    <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -661,6 +933,7 @@ msgid ""
 "<span class=\"text-white\">Availabilities: Monday, Tuesday and Saturday</"
 "span>"
 msgstr ""
+"<span class=\"text-white\">Disponibilitate: luni, marți și sâmbătă</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -668,6 +941,7 @@ msgid ""
 "<span class=\"text-white\">Availabilities: Monday, Wednesday and Friday</"
 "span>"
 msgstr ""
+"<span class=\"text-white\">Disponibilitate: luni, miercuri și vineri</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -675,6 +949,7 @@ msgid ""
 "<span class=\"text-white\">Availabilities: Tuesday, Thursday and Sunday</"
 "span>"
 msgstr ""
+"<span class=\"text-white\">Disponibilitate: marți, joi și duminică</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -682,6 +957,8 @@ msgid ""
 "<span class=\"text-white\">Availabilities: Wednesday, Friday and Sunday</"
 "span>"
 msgstr ""
+"<span class=\"text-white\">Disponibilitate: miercuri, vineri și duminică</"
+"span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_contactus
@@ -691,6 +968,10 @@ msgid ""
 "role=\"button\" class=\"btn btn-primary s_website_form_send "
 "o_translate_inline\">Send request</a>"
 msgstr ""
+"<span id=\"s_website_form_result\"/>\n"
+"                                                            <a href=\"#\" "
+"role=\"button\" class=\"btn btn-primary s_website_form_send "
+"o_translate_inline\">Trimite solicitarea</a>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -700,6 +981,10 @@ msgid ""
 "drills radically transform how you read the game.</span>\n"
 "                                                    <br/>"
 msgstr ""
+"<span style=\"color: rgba(255, 255, 255, 0.57);\">Fostă jucătoare "
+"profesionistă, Elena este expertă în strategia jocului de dublu. Exercițiile "
+"ei situaționale îți schimbă radical modul în care citești jocul.</span>\n"
+"                                                    <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -710,6 +995,11 @@ msgid ""
 "winning tactics.</span>\n"
 "                                                    <br/>"
 msgstr ""
+"<span style=\"color: rgba(255, 255, 255, 0.57);\">Fernando este un antrenor "
+"tactic de excepție, specializat în tactica jocului. Prin exerciții "
+"situaționale, îi ajută pe jucători să citească jocul și să aplice tactici "
+"câștigătoare.</span>\n"
+"                                                    <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -719,6 +1009,10 @@ msgid ""
 "span>\n"
 "                                                    <br/>"
 msgstr ""
+"<span style=\"color: rgba(255, 255, 255, 0.57);\">Julien îmbină pregătirea "
+"fizică și tehnica padelului pentru a-ți oferi un avantaj decisiv pe teren.</"
+"span>\n"
+"                                                    <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -728,11 +1022,15 @@ msgid ""
 "with her unique teaching approach.</span>\n"
 "                                                    <br/>"
 msgstr ""
+"<span style=\"color: rgba(255, 255, 255, 0.57);\">Sofia transformă fiecare "
+"sesiune într-o experiență plăcută și utilă. Ea conduce programele pentru "
+"începători și juniori printr-o metodă de predare unică.</span>\n"
+"                                                    <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "<strong class=\"s_rating_title\">Rating</strong>"
-msgstr ""
+msgstr "<strong class=\"s_rating_title\">Evaluare</strong>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -741,6 +1039,9 @@ msgid ""
 "and\n"
 "                    generate tax reports."
 msgstr ""
+"<strong>Contabilitate:</strong> Înregistrează automat plățile, închide "
+"sesiunile și\n"
+"                    generează rapoarte fiscale."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -750,11 +1051,15 @@ msgid ""
 "                    page instantly creates a brand-new opportunity in your "
 "<strong>CRM App</strong>."
 msgstr ""
+"<strong>Generarea automată a pistelor:</strong> Fiecare solicitare trimisă "
+"prin pagina „Contactează-ne”\n"
+"                    creează imediat o oportunitate nouă în aplicația <strong>"
+"CRM</strong>."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "<strong>Availability:</strong> Exclusive to Friday evenings."
-msgstr ""
+msgstr "<strong>Disponibilitate:</strong> Disponibilă doar vineri seara."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -762,6 +1067,8 @@ msgid ""
 "<strong>Cafeteria:</strong> Running their on-site food and beverage\n"
 "                            services."
 msgstr ""
+"<strong>Cafenea:</strong> Gestionează serviciile de mâncare și băuturi\n"
+"                            la fața locului."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -769,11 +1076,14 @@ msgid ""
 "<strong>Court Rentals:</strong> Managing bookings and scheduling for\n"
 "                            players."
 msgstr ""
+"<strong>Închiriere terenuri:</strong> Gestionează rezervările și "
+"programările pentru\n"
+"                            jucători."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "<strong>Duration:</strong> 60-minute playing sessions."
-msgstr ""
+msgstr "<strong>Durată:</strong> Sesiuni de joc de 60 de minute."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -783,6 +1093,10 @@ msgid ""
 "rgba(45, 27, 61, 0.66);\">Member since 3 years</span>\n"
 "                                                    <br/>"
 msgstr ""
+"<strong>Elisa D.<br/></strong>\n"
+"                                                    <span style=\"color: rgba"
+"(45, 27, 61, 0.66);\">Membru de 3 ani</span>\n"
+"                                                    <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
@@ -790,6 +1104,8 @@ msgid ""
 "<strong>Email<br/></strong>\n"
 "                                        hello@padelo.example.com"
 msgstr ""
+"<strong>E-mail<br/></strong>\n"
+"                                        hello@padelo.example.com"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -798,6 +1114,9 @@ msgid ""
 "convenient\n"
 "                    paid home delivery or free in-club pickup."
 msgstr ""
+"<strong>Opțiuni flexibile de livrare:</strong> Clienții pot alege între "
+"livrarea convenabilă la domiciliu, contra cost,\n"
+"                    sau ridicarea gratuită de la club."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -805,19 +1124,28 @@ msgid ""
 "<strong>Frequency:</strong> Slots start every 30 minutes to maximize court\n"
 "                    turnover and availability."
 msgstr ""
+"<strong>Frecvență:</strong> Intervalele încep la fiecare 30 de minute pentru "
+"a maximiza rotația terenurilor\n"
+"                    și disponibilitatea acestora."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid ""
 "<strong>From the CRM app:</strong> Track client interactions in real time "
 "and use\n"
-"                    the <strong>Sales\n"
-"                        App</strong> to quickly shoot over tailored "
-"quotations for B2B leads or\n"
-"                    custom customer requests, or use the "
-"<strong>Subscription App</strong> for new\n"
-"                    members."
+"                    the <strong>Sales App</strong> to quickly shoot over "
+"tailored quotations for B2B\n"
+"                    leads or custom customer requests, or use the "
+"<strong>Subscription App</strong>\n"
+"                    for new members."
 msgstr ""
+"<strong>Din aplicația CRM:</strong> Urmărește în timp real interacțiunile cu "
+"clienții și folosește\n"
+"                    aplicația <strong>Vânzări</strong> pentru a trimite "
+"rapid oferte personalizate pistelor B2B\n"
+"                    sau solicitărilor speciale ale clienților; pentru "
+"membrii noi,\n"
+"                    poți folosi aplicația <strong>Abonamente</strong>."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -830,6 +1158,13 @@ msgid ""
 "                            seamlessly coordinate orders between the floor "
 "and the kitchen."
 msgstr ""
+"<strong>Funcționalități complete de restaurant:</strong> Ai o bucătărie sau\n"
+"                            o zonă de servire cu mese? Creează planul "
+"meselor direct în sistem\n"
+"                            și integrează un <strong>sistem digital de "
+"afișare pentru bucătărie (KDS)</strong> pentru\n"
+"                            a coordona fără întreruperi comenzile dintre "
+"sală și bucătărie."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -837,6 +1172,9 @@ msgid ""
 "<strong>Gear &amp; Equipment:</strong> Handling basic sports gear and\n"
 "                            inventory."
 msgstr ""
+"<strong>Echipament sportiv:</strong> Gestionează echipamentul sportiv de "
+"bază și\n"
+"                            inventarul."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -847,6 +1185,11 @@ msgid ""
 "process the transaction\n"
 "                    instantly using the dedicated Shop POS system."
 msgstr ""
+"<strong>Încasare imediată:</strong> Dacă un jucător are nevoie de echipament "
+"înaintea unui meci sau\n"
+"                    dorește să cumpere direct de la club, personalul poate "
+"procesa imediat tranzacția\n"
+"                    folosind sistemul POS dedicat magazinului."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -858,6 +1201,13 @@ msgid ""
 "their preferential\n"
 "                            discounts or tab the drinks to their account."
 msgstr ""
+"<strong>Scanarea instantanee a membrilor:</strong> Asociază coduri de bare "
+"unice cu\n"
+"                            profilurile membrilor. Personalul poate scana "
+"cardul fizic sau digital\n"
+"                            la bar pentru a aplica imediat reducerile "
+"preferențiale\n"
+"                            sau a înregistra băuturile în contul acestora."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -866,9 +1216,15 @@ msgid ""
 "reservations,\n"
 "                    counter employees can seamlessly book courts on behalf "
 "of members by navigating\n"
-"                    to the <strong>Appointments\n"
-"                        &gt; Resource Schedule</strong> menu."
+"                    to the <strong>Appointments &gt; Resource Schedule</"
+"strong> menu."
 msgstr ""
+"<strong>Rezervări la recepție:</strong> Pentru clienții fără rezervare sau "
+"cei care sună,\n"
+"                    personalul de la recepție poate rezerva terenuri în "
+"numele membrilor, accesând\n"
+"                    meniul <strong>Programări &gt; Planificarea resurselor</"
+"strong> menu."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -878,6 +1234,10 @@ msgid ""
 "rgba(45, 27, 61, 0.66);\">VIP Member</span>\n"
 "                                                    <br/>"
 msgstr ""
+"<strong>Julien M.<br/></strong>\n"
+"                                                    <span style=\"color: rgba"
+"(45, 27, 61, 0.66);\">Membru VIP</span>\n"
+"                                                    <br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -886,6 +1246,9 @@ msgid ""
 "                                                    <span style=\"color: "
 "rgba(45, 27, 61, 0.66);\">Member since 1 year</span>"
 msgstr ""
+"<strong>Marina S.<br/></strong>\n"
+"                                                    <span style=\"color: rgba"
+"(45, 27, 61, 0.66);\">Membru de 1 an</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -893,6 +1256,9 @@ msgid ""
 "<strong>Payroll:</strong> Use this feature to handle <strong>employee\n"
 "                    salaries and manage holiday requests</strong>."
 msgstr ""
+"<strong>Salarizare:</strong> Folosește această funcție pentru a gestiona "
+"<strong>salariile angajaților\n"
+"                    și cererile de concediu</strong>."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
@@ -900,6 +1266,8 @@ msgid ""
 "<strong>Phone<br/></strong>\n"
 "                                        +34 931 22 45 80"
 msgstr ""
+"<strong>Telefon<br/></strong>\n"
+"                                        +34 931 22 45 80"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -908,28 +1276,44 @@ msgid ""
 "players\n"
 "                    to sign up and join open, existing games."
 msgstr ""
+"<strong>Scop:</strong> Creat pentru jocuri sociale; jucătorii se pot înscrie "
+"individual la meciuri\n"
+"                    deschise deja existente."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid ""
 "<strong>Shareable Court Resources:</strong> Because the courts are "
-"configured as <strong>shareable\n"
-"                    resources</strong>, multiple players can register for "
-"the same court\n"
-"                    simultaneously. The system will continue to accept "
-"registrations for a slot as\n"
-"                    long as there are open spots available on that court."
+"configured as\n"
+"                    <strong>shareable resources</strong>, multiple players "
+"can register for the same\n"
+"                    court simultaneously. The system will continue to accept "
+"registrations for a\n"
+"                    slot as long as there are open spots available on that "
+"court."
 msgstr ""
+"<strong>Terenuri partajabile:</strong> Deoarece terenurile sunt configurate "
+"ca resurse\n"
+"                    <strong>partajabile</strong> mai mulți jucători se pot "
+"înscrie simultan pe același\n"
+"                    teren. Sistemul va accepta în continuare înscrieri "
+"pentru un\n"
+"                    interval cât timp mai sunt locuri disponibile pe teren."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid ""
-"<strong>Smart Pricelists:</strong> Link these membership levels to custom\n"
+"<strong>Smart Pricelists:</strong> Link these membership levels to custom\n"
 "                    pricelists. The system will automatically apply "
 "preferential rates, bar\n"
 "                    discounts, or free bookings whenever the member makes a "
 "purchase."
 msgstr ""
+"<strong>Liste de prețuri inteligente:</strong> Asociază nivelurile de "
+"abonament unor liste de prețuri\n"
+"                    personalizate. Sistemul va aplica automat tarife "
+"preferențiale, reduceri la bar\n"
+"                    sau rezervări gratuite când membrul face o achiziție."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -940,6 +1324,12 @@ msgid ""
 "strategically suggests\n"
 "                    relevant add-ons like towels or balls before checkout."
 msgstr ""
+"<strong>Vânzare suplimentară inteligentă:</strong> Sistemul maximizează "
+"automat veniturile. De\n"
+"                    exemplu, când un client cumpără o rachetă, magazinul "
+"online îi sugerează\n"
+"                    în mod strategic accesorii relevante, precum prosoape "
+"sau mingi, înainte de finalizarea comenzii."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -950,6 +1340,11 @@ msgid ""
 "directly within the\n"
 "                integrated Planning app."
 msgstr ""
+"<strong>Programarea eficientă a echipei:</strong> Asigură funcționarea fără "
+"probleme\n"
+"                a afacerii, gestionând turele barmanilor și ale personalului "
+"din sală direct în\n"
+"                aplicația integrată Planificare."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -960,6 +1355,11 @@ msgid ""
 "checkout screen for your\n"
 "                    bar staff."
 msgstr ""
+"<strong>Fluxuri de lucru optimizate:</strong> Organizează cu ușurință meniul "
+"în categorii clare\n"
+"                    pentru a crea un ecran intuitiv și rapid de încasare "
+"pentru personalul\n"
+"                    barului."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -972,6 +1372,12 @@ msgid ""
 "directly to their customer\n"
 "                    profile."
 msgstr ""
+"<strong>Niveluri bazate pe abonamente:</strong> Definește pachetele de "
+"membru ca\n"
+"                    produse în aplicația <strong>Abonamente</strong>. Când "
+"un client cumpără un abonament,\n"
+"                    Odoo atribuie automat un anumit nivel de partener fișei\n"
+"                    clientului."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -981,16 +1387,21 @@ msgid ""
 "method your venue offers from\n"
 "                    one screen."
 msgstr ""
+"<strong>Gestionare unificată:</strong> Supraveghează stocul barului, "
+"urmărește\n"
+"                    notele de plată ale clienților și acceptă cu ușurință "
+"toate metodele de plată ale localului dintr-un\n"
+"                    singur ecran."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "<u>Sports Facilities</u>"
-msgstr ""
+msgstr "<u>Facilități sportive</u>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "A smiling woman with red hair in a bun and visible freckles"
-msgstr ""
+msgstr "Femeie zâmbitoare cu părul roșcat prins în coc și pistrui vizibili"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -998,11 +1409,19 @@ msgid ""
 "Absolutely. Our Essentials program is specifically designed for those who "
 "have never touched a padel racket. The coaches are patient and supportive."
 msgstr ""
+"Desigur. Programul nostru Essentials este conceput special pentru cei care "
+"nu au mai ținut niciodată o rachetă de padel. Antrenorii sunt răbdători și "
+"încurajatori."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "Activities"
-msgstr ""
+msgstr "Activități"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "Animate a community around your business by different means."
+msgstr "Dezvoltă o comunitate în jurul afacerii tale prin diverse mijloace."
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_18
@@ -1012,7 +1431,7 @@ msgstr "Aquadrink "
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "Automated Membership Workflow"
-msgstr ""
+msgstr "Flux automatizat de abonamente"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_15
@@ -1031,8 +1450,8 @@ msgstr "Bară"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "Bar Management 🍻"
-msgstr ""
+msgid "Bar Management 🍻"
+msgstr "Gestionarea barului 🍻"
 
 #. module: sports_club
 #: model:planning.role,name:sports_club.planning_role_1
@@ -1048,7 +1467,7 @@ msgstr "Bere"
 #: model:product.template,name:sports_club.product_product_18_product_template
 #: model_terms:ir.ui.view,arch_db:sports_club.header_call_to_action
 msgid "Book a court"
-msgstr ""
+msgstr "Rezervă un teren"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -1060,11 +1479,17 @@ msgid ""
 "            products, manage the booking spaces and so much more—no coding "
 "required."
 msgstr ""
+"Creează o prezență online perfect adaptată nevoilor clienților. Odoo îți "
+"oferă\n"
+"            flexibilitatea de a integra cu ușurință politicile interne, de a "
+"personaliza formulare, de a prezenta cele mai noi\n"
+"            produse, de a gestiona rezervările și multe altele — fără să "
+"scrii cod."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "Calle del Pino Grueso 2790"
-msgstr ""
+msgstr "Calle del Pino Grueso 2790"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_5
@@ -1086,22 +1511,22 @@ msgstr "Prosop Club"
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "Coaches"
-msgstr ""
+msgstr "Antrenori"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "Coaching"
-msgstr ""
+msgstr "Antrenorat"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
 msgid "Coaching 1 on 1"
-msgstr ""
+msgstr "Antrenament individual"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "Coaching session"
-msgstr ""
+msgstr "Sesiune de antrenament"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_17
@@ -1111,17 +1536,22 @@ msgstr "Cafea"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
 msgid "Community"
-msgstr ""
+msgstr "Comunitate"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "Community Management 🌐"
+msgstr "Gestionarea comunității 🌐"
 
 #. module: sports_club
 #: model:website.page,name:sports_club.page_contactus
 msgid "Contact Us"
-msgstr ""
+msgstr "Contactați-ne"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "Court Booking 📅"
-msgstr ""
+msgid "Court Booking 📅"
+msgstr "Rezervarea terenului 📅"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_16
@@ -1132,17 +1562,17 @@ msgstr "Croque-Monsieur"
 #: model:product.pricelist,name:sports_club.product_pricelist_2
 #: model:product.pricelist,name:sports_club.product_pricelist_4
 msgid "Default"
-msgstr ""
+msgstr "Implicit"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "Designed for immediate, on-the-spot purchases."
-msgstr ""
+msgstr "Conceput pentru achiziții imediate, pe loc."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "Do you want to go further?"
-msgstr ""
+msgstr "Vrei să mergi mai departe?"
 
 #. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_1
@@ -1156,11 +1586,14 @@ msgid ""
 "round free court\n"
 "            access and automated discounts at the bar."
 msgstr ""
+"Gestionează cu ușurință abonamentele clubului, care oferă beneficii "
+"exclusive, precum acces gratuit la terenuri pe tot parcursul anului\n"
+"            și reduceri automate la bar."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "Ecommerce"
-msgstr ""
+msgstr "Comerț electronic"
 
 #. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_8
@@ -1170,7 +1603,7 @@ msgstr "Echipament"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "Every day"
-msgstr ""
+msgstr "În fiecare zi"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -1178,12 +1611,17 @@ msgid ""
 "Explore marketing possibilities with Email Marketing, SMS Marketing, Social\n"
 "                Marketing and Marketing Automation apps"
 msgstr ""
+"Descoperă oportunitățile de marketing cu aplicațiile Marketing prin e-mail, "
+"Marketing prin SMS, Marketing\n"
+"                social și Automatizarea marketingului"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
 msgid ""
 "Explore our facilities <span class=\"text-o-color-1\">&amp;</span> services"
 msgstr ""
+"Descoperă facilitățile noastre <span class=\"text-o-color-1\">&amp;</span> "
+"serviciile"
 
 #. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_2
@@ -1198,7 +1636,7 @@ msgstr "Joacă liberă vineri seara"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "From 7AM to 10PM"
-msgstr ""
+msgstr "Între 07:00 și 22:00"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_product_2_product_template
@@ -1207,8 +1645,20 @@ msgstr "Furiosa"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "Gears 🎾"
+msgid "Gears 🎾"
+msgstr "Echipament 🎾"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"Generate newsletter and communications targeting\n"
+"                specific audiences and monitoring performance with\n"
+"                <strong>Mass Mailing App</strong>."
 msgstr ""
+"Generează buletine informative și comunicări destinate\n"
+"                unor anumite categorii de public și monitorizează "
+"performanța cu aplicația\n"
+"                <strong>E-mail în masă</strong>."
 
 #. module: sports_club
 #. odoo-javascript
@@ -1223,11 +1673,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
 msgid "Group sessions with our certified coaches to progress together."
 msgstr ""
+"Sesiuni de grup cu antrenorii noștri certificați pentru a progresa împreună."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
 msgid "Group training session"
-msgstr ""
+msgstr "Antrenament de grup"
 
 #. module: sports_club
 #: model:website.page,name:sports_club.page_home
@@ -1243,7 +1694,7 @@ msgstr "Hydra"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "Join us"
-msgstr ""
+msgstr "Alătură-te nouă"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
@@ -1254,6 +1705,8 @@ msgid ""
 "Join us this week — your <strong>first trial lesson is free</strong>. No "
 "equipment required."
 msgstr ""
+"Alătură-te nouă săptămâna aceasta — <strong>prima lecție de probă este "
+"gratuită</strong> Nu ai nevoie de echipament."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -1261,6 +1714,17 @@ msgid ""
 "Just bring your sports shoes! We provide rackets for beginners, and you can "
 "also buy or rent equipment at the club's pro shop."
 msgstr ""
+"Adu-ți doar încălțămintea sport! Oferim rachete pentru începători, iar "
+"echipamentul poate fi cumpărat sau închiriat de la magazinul clubului."
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid ""
+"Keep your community up to date about upcoming events and share news to build "
+"fidelity."
+msgstr ""
+"Ține comunitatea la curent cu evenimentele viitoare și distribuie noutăți "
+"pentru a consolida loialitatea."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -1269,11 +1733,14 @@ msgid ""
 "second, dedicated\n"
 "            Point of Sale (POS) session specifically for the bar."
 msgstr ""
+"Asigură funcționarea eficientă a serviciului de mâncare și băuturi pornind o "
+"a doua sesiune dedicată de\n"
+"            Punct de vânzare (POS), special pentru bar."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "Key System Insights"
-msgstr ""
+msgstr "Informații esențiale despre sistem"
 
 #. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_4
@@ -1283,12 +1750,7 @@ msgstr "DIVERSE"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "Manage all your events from the Events module"
-msgstr ""
-
-#. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "Manage your Website 🌐"
-msgstr ""
+msgstr "Gestionează toate evenimentele din modulul Evenimente"
 
 #. module: sports_club
 #: model_terms:appointment.type,message_intro:sports_club.appointment_type_2
@@ -1307,14 +1769,14 @@ msgid "Members"
 msgstr "Membri"
 
 #. module: sports_club
-#: model:product.template,name:sports_club.product_product_23_product_template
-msgid "Membership"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "Members 🧑‍🤝‍🧑"
+msgstr "Membri 🧑‍🤝‍🧑"
 
 #. module: sports_club
-#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid "Members 🧑‍🤝‍🧑"
-msgstr ""
+#: model:product.template,name:sports_club.product_product_23_product_template
+msgid "Membership"
+msgstr "Abonament"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_template_6
@@ -1329,22 +1791,22 @@ msgstr "Diverse"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "Most asked questions"
-msgstr ""
+msgstr "Întrebări frecvente"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_contactus
 msgid "New in town, want to make friends, ..."
-msgstr ""
+msgstr "Ești nou în oraș și vrei să-ți faci prieteni? ..."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_contactus
 msgid "New membership"
-msgstr ""
+msgstr "Abonament nou"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "On-Site \"Shop\" (Point of Sale)"
-msgstr ""
+msgstr "Magazin la fața locului (Punct de vânzare)"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -1352,12 +1814,14 @@ msgid ""
 "Once your core operations are running smoothly, consider expanding your "
 "toolset:"
 msgstr ""
+"După ce operațiunile de bază funcționează bine, ia în considerare extinderea "
+"setului de instrumente:"
 
 #. module: sports_club
 #: model:website.page,name:sports_club.page_our_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "Our club"
-msgstr ""
+msgstr "Clubul nostru"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_product_7_product_template
@@ -1367,7 +1831,7 @@ msgstr "Set de 3 mingi"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "Padelo"
-msgstr ""
+msgstr "Padelo"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -1375,27 +1839,29 @@ msgid ""
 "Padelo was born from a <span class=\"text-o-color-1\">shared passion</span> "
 "for padel and the belief that sport brings people together."
 msgstr ""
+"Padelo s-a născut dintr-o <span class=\"text-o-color-1\">pasiune comună</"
+"span> pentru padel și convingerea că sportul îi apropie pe oameni."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "Perfect for members browsing and buying online."
-msgstr ""
+msgstr "Ideal pentru membrii care navighează și cumpără online."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
 msgid "Personalized coaching tailored to your level and goals."
-msgstr ""
+msgstr "Antrenament personalizat, adaptat nivelului și obiectivelor tale."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "Premium padel gear collection"
-msgstr ""
+msgstr "Colecție premium de echipament pentru padel"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "Products"
-msgstr ""
+msgstr "Produse"
 
 #. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_7
@@ -1418,7 +1884,7 @@ msgstr "Rachete"
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
 #: model_terms:ir.ui.view,arch_db:sports_club.website_sale_products_oe_structure_website_sale_products_2
 msgid "Ready to play with us?"
-msgstr ""
+msgstr "Ești gata să joci cu noi?"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -1426,6 +1892,8 @@ msgid ""
 "Schedule a\n"
 "                        demo"
 msgstr ""
+"Programează o\n"
+"                        demonstrație"
 
 #. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_6
@@ -1435,7 +1903,7 @@ msgstr "Magazin"
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "Smiling man"
-msgstr ""
+msgstr "Bărbat zâmbitor"
 
 #. module: sports_club
 #: model:pos.category,name:sports_club.pos_category_3
@@ -1445,17 +1913,17 @@ msgstr "Gustări"
 #. module: sports_club
 #: model:ir.actions.server,name:sports_club.soft_dependency_server_action
 msgid "Soft dependency"
-msgstr ""
+msgstr "Dependență opțională"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.footer_custom
 msgid "Spain"
-msgstr ""
+msgstr "Spania"
 
 #. module: sports_club
 #: model:product.template,name:sports_club.product_product_24_product_template
 msgid "Special offer"
-msgstr ""
+msgstr "Ofertă specială"
 
 #. module: sports_club
 #: model:crm.team,name:sports_club.crm_team_5
@@ -1470,24 +1938,24 @@ msgstr "Rezervare teren sportiv"
 #. module: sports_club
 #: model:appointment.type,name:sports_club.appointment_type_4
 msgid "Sport Hall (Partial or Full)"
-msgstr ""
+msgstr "Sală de sport (parțială sau completă)"
 
 #. module: sports_club
 #: model_terms:appointment.type,message_intro:sports_club.appointment_type_4
 msgid "Sport Hall Map"
-msgstr ""
+msgstr "Planul sălii de sport"
 
 #. module: sports_club
 #: model:ir.module.module,shortdesc:base.module_sports_club
 msgid "Sports Facilities"
-msgstr ""
+msgstr "Facilități sportive"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_contactus
 msgid ""
 "Tell us why you want to join our club and we'll be more than happy to "
 "welcome you."
-msgstr ""
+msgstr "Spune-ne de ce vrei să te alături clubului și te vom primi cu drag."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -1497,6 +1965,8 @@ msgid ""
 "            smooth shopping experience whether players are at home or at the "
 "courts."
 msgstr ""
+"Clubul vinde echipament sportiv prin două canale principale, oferind o\n"
+"            experiență de cumpărare simplă atât acasă, cât și la teren."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -1505,11 +1975,14 @@ msgid ""
 "sessions and\n"
 "            social play:"
 msgstr ""
+"Clubul folosește două tipuri distincte de programări pentru a acomoda "
+"sesiunile private și\n"
+"            jocurile sociale:"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
 msgid "The gym coach is posing with hands on hips"
-msgstr ""
+msgstr "Antrenorul de fitness pozează cu mâinile în șolduri"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -1520,6 +1993,11 @@ msgid ""
 "Gold, Silver, Junior)\n"
 "            with distinct pricing rules and unique perks."
 msgstr ""
+"Această structură îți permite să personalizezi complet oferta clubului. Îți "
+"poți extinde\n"
+"            afacerea creând mai multe niveluri de abonament (de exemplu, "
+"Gold, Silver, Junior),\n"
+"            fiecare cu reguli de preț distincte și beneficii unice."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -1531,6 +2009,11 @@ msgid ""
 "                    small business, they juggle a wide variety of daily "
 "operations, including:"
 msgstr ""
+"Pentru a ilustra cum funcționează această configurare, baza de date este "
+"configurată pentru un club de tenis și\n"
+"                    padel numit <strong>„The Club”.</strong> Deși este\n"
+"                    o afacere mică, clubul gestionează o varietate mare de "
+"operațiuni zilnice, inclusiv:"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -1541,11 +2024,16 @@ msgid ""
 "detailed workflows they\n"
 "                    rely on every day."
 msgstr ""
+"Pentru a organiza toate aceste activități, The Club își gestionează întreaga "
+"afacere\n"
+"                    cu ajutorul <strong>Odoo</strong>. Mai jos sunt descrise "
+"fluxurile de lucru\n"
+"                    folosite zilnic."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "Total Flexibility"
-msgstr ""
+msgstr "Flexibilitate totală"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -1555,6 +2043,10 @@ msgid ""
 "Select your date and time slot, then confirm. You will receive a "
 "confirmation email immediately."
 msgstr ""
+"Via our online platform, under the <a href=\"/appointment\" "
+"class=\"o_translate_inline\">\"<u><strong>Terenuri\"</strong></u></a>. "
+"Selectează data și intervalul orar, apoi confirmă. Vei primi imediat un e-"
+"mail de confirmare."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -1562,12 +2054,14 @@ msgid ""
 "We are located at Calle del Pino Grueso 2790, Barcelona. We are open every "
 "day from 7 AM to 10 PM, including weekends and public holidays."
 msgstr ""
+"Ne găsești pe Calle del Pino Grueso 2790, Barcelona. Suntem deschiși zilnic "
+"între orele 07:00 și 22:00, inclusiv în weekenduri și de sărbători."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_our_club
 msgid "Weekly friendly matches organized to meet new players."
-msgstr ""
+msgstr "Meciuri amicale săptămânale pentru a cunoaște jucători noi."
 
 #. module: sports_club
 #: model_terms:web_tour.tour,rainbow_man_message:sports_club.knowledge_tour
@@ -1577,12 +2071,14 @@ msgstr "Bine ai venit! Spor la explorat."
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "Woman playing padel"
-msgstr ""
+msgstr "Femeie jucând padel"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "Would you like to discuss your Odoo setup with us or go even further?"
 msgstr ""
+"Vrei să discutăm despre configurarea Odoo sau să explorăm împreună și alte "
+"posibilități?"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -1590,6 +2086,8 @@ msgid ""
 "Your Dynamic Snippet will be displayed here... This message is displayed "
 "because you did not provide enough options to retrieve its content.<br/>"
 msgstr ""
+"Fragmentul dvs. dinamic va fi afișat aici... Acest mesaj este afișat pentru "
+"că nu ați furnizat suficiente opțiuni pentru a-i recupera conținutul.<br/>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
@@ -1598,48 +2096,71 @@ msgid ""
 "                                                Modern courts <span "
 "class=\"text-o-color-1\">for all levels.</span>"
 msgstr ""
+"Jocul tău, stilul tău.<br/>\n"
+"                                                Terenuri moderne <span "
+"class=\"text-o-color-1\">pentru toate nivelurile.</span>"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid ""
 "Your website doesn't just sit there—it actively works to grow your business."
 msgstr ""
+"Site-ul tău nu stă degeaba — lucrează activ pentru dezvoltarea afacerii."
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "a woman holding a tennis racquet on a tennis court"
-msgstr ""
+msgstr "femeie ținând o rachetă de tenis pe un teren"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
 msgid "a woman with her arms crossed posing for a picture"
-msgstr ""
+msgstr "femeie pozând cu brațele încrucișate"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
 msgid "person wearing blue top smiling"
-msgstr ""
+msgstr "persoană zâmbitoare purtând un top albastru"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_home
 msgid "smiling woman wearing white and black pinstriped collared top"
-msgstr ""
+msgstr "femeie zâmbitoare purtând o bluză cu guler, cu dungi albe și negre"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.view_page_coaches
 msgid "woman in white and black long sleeve shirt holding tennis racket"
-msgstr ""
+msgstr "femeie în bluză alb-neagră cu mânecă lungă, ținând o rachetă de tenis"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "🎓 Appointment"
+msgstr "🎓 Programări"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "🎓 Mass Mailing"
+msgstr "🎓 E-mail în masă"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "🎓 Planning"
+msgstr "🎓 Planificare"
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "🎓 PoS"
+msgstr "🎓 Punct de vânzare"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
 msgid "🎓 Website"
-msgstr ""
+msgstr "🎓 Site web"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
-msgid ""
-"💡                    <strong>Pro Tips for Advanced Operations:</strong>"
-msgstr ""
+msgid "🎓 eCommerce"
+msgstr "🎓 Comerț electronic"
 
 #. module: sports_club
 #: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
@@ -1651,6 +2172,16 @@ msgid ""
 "                    database to tailor it perfectly to your specific "
 "business needs."
 msgstr ""
+"💡                    <strong>Memento rapid:</strong> Odoo este complet "
+"personalizabil. Poți schimba cu ușurință\n"
+"                    setările de configurare și poți adăuga numeroase "
+"aplicații gratuite în baza de date\n"
+"                    pentru a o adapta perfect nevoilor afacerii tale."
+
+#. module: sports_club
+#: model_terms:ir.ui.view,arch_db:sports_club.welcome_article_body
+msgid "💡 <strong>Pro Tips for Advanced Operations:</strong>"
+msgstr "💡 <strong>Sfaturi profesionale pentru operațiuni avansate:</strong>"
 
 #~ msgid "&amp;nbsp;and get to play with our members"
 #~ msgstr "&amp;nbsp;și joacă împreună cu membrii noștri"

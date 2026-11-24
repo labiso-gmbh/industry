@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 18:41+0000\n"
-"PO-Revision-Date: 2026-11-06 21:33+0000\n"
+"POT-Creation-Date: 2026-11-13 18:54+0000\n"
+"PO-Revision-Date: 2026-11-19 08:44+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-20/tattoo_shop/es_419/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #. module: tattoo_shop
 #: model:website.page,url:tattoo_shop.page_about_us
@@ -142,11 +142,9 @@ msgstr ""
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.view_page_contactus
 msgid ""
-"<a href=\"tel:+32%202%20290%2034%2090\" class=\"o_translate_inline\"><span "
-"class=\"text-o-color-3\">+32 2 290 34 90</span></a>"
+"<a href=\"tel:+16505550102\" class=\"o_translate_inline\"><span class=\"text-"
+"o-color-3\">+1 650-555-0102</span></a>"
 msgstr ""
-"<a href=\"tel:+32%202%20290%2034%2090\" class=\"o_translate_inline\"><span "
-"class=\"text-o-color-3\">+32 2 290 34 90</span></a>"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body
@@ -212,12 +210,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.view_page_contactus
 msgid ""
 "<br/>\n"
-"                                            <a href=\"tel:"
-"+32%202%20290%2034%2090\" class=\"o_translate_inline\">+32 2 290 34 90</a>"
+"                                            <a href=\"tel:+16505550102\" "
+"class=\"o_translate_inline\">+1 650-555-0102</a>"
 msgstr ""
-"<br/>\n"
-"                                            <a href=\"tel:"
-"+32%202%20290%2034%2090\" class=\"o_translate_inline\">+32 2 290 34 90</a>"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.view_page_home
@@ -247,6 +242,21 @@ msgid ""
 "            <t t-out=\"object.user_id.signature\"></t></div>\n"
 "        "
 msgstr ""
+"<div data-oe-version=\"1.0\">\n"
+"            Hola <t t-out=\"object.contact_name or ''\"></t>,\n"
+"            <br/><br/>\n"
+"            Agenda una cita con nosotros si te interesa reservar nuestros "
+"servicios.\n"
+"            <br/><br/>\n"
+"            Aquí tienes el enlace:\n"
+"            <br/>\n"
+"            <a t-att-href=\"'/appointment/' + "
+"str(env.ref('tattoo_shop.appointment_type_1').id)\">Agenda ahora</a>\n"
+"            <br/><br/>\n"
+"            ¡Que tengas un buen día!\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.user_id.signature\"></t></div>\n"
+"        "
 
 #. module: tattoo_shop
 #: model:mail.template,body_html:tattoo_shop.mail_template_after_care
@@ -265,6 +275,20 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+"<div data-oe-version=\"1.0\">\n"
+"            Hola <t t-out=\"object.contact_name or ''\"></t>,\n"
+"            <br><br>\n"
+"            Esperamos que tu experiencia en nuestro estudio de tatuajes haya "
+"sido buena.\n"
+"            <br>\n"
+"            En el archivo adjunto encontrarás una guía de cuidados "
+"posteriores para tu tatuaje con consejos útiles.\n"
+"            <br><br>\n"
+"            Que tengas un buen día,\n"
+"            <br><br>\n"
+"            <t t-out=\"object.activity_user_id.signature\"></t>\n"
+"            </div>\n"
+"        "
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body
@@ -545,6 +569,11 @@ msgid ""
 "first sketch to the final needle, we take the time to understand @your "
 "vision and bring it to life.<br/><br/></span>"
 msgstr ""
+"<span style=\"font-size: 18px;\">Nuestros artistas combinan creatividad, "
+"precisión y años de experiencia para crear tatuajes únicos que te "
+"representen. Desde el primer boceto hasta la última aguja, nos tomamos el "
+"tiempo necesario para comprender tu visión y hacerla realidad.<br/><br/></"
+"span>"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.view_page_home
@@ -1111,6 +1140,10 @@ msgid ""
 "We’ll work together to shape your vision into a tattoo that feels uniquely "
 "yours."
 msgstr ""
+"Todo empieza con tu idea. Cuéntanos qué tienes en mente, comparte tus "
+"referencias y hablemos del estilo, la ubicación, el tamaño y los detalles. "
+"Trabajaremos contigo para dar forma a tu visión y crear un tatuaje único que "
+"te represente."
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.view_page_residents
@@ -1364,7 +1397,7 @@ msgstr ""
 #. module: tattoo_shop
 #: model:website.page,name:tattoo_shop.page_residents
 msgid "Residents"
-msgstr ""
+msgstr "Residentes"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body
@@ -1521,7 +1554,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.view_page_home
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.view_page_residents
 msgid "TikTok"
-msgstr ""
+msgstr "TikTok"
 
 #. module: tattoo_shop
 #: model:product.template,name:tattoo_shop.product_product_5_product_template
@@ -1549,7 +1582,7 @@ msgstr ""
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.view_page_residents
 msgid "Watercolor"
-msgstr ""
+msgstr "Acuarela"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.view_page_about_us
@@ -1583,6 +1616,9 @@ msgid ""
 "to your collection, we put the same care into every line, every detail, and "
 "every session."
 msgstr ""
+"Nos apasiona crear tatuajes personales, atemporales y hechos para ti. Tanto "
+"si es tu primer tatuaje como si es el último de tu colección, dedicamos el "
+"mismo cuidado a cada línea, cada detalle y cada sesión."
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.view_page_about_us
@@ -1620,6 +1656,8 @@ msgid ""
 "Your Dynamic Snippet will be displayed here... This message is displayed "
 "because you did not provide enough options to retrieve its content.<br/>"
 msgstr ""
+"Tu snippet dinámico aparecerá aquí... Este mensaje aparece porque no "
+"proporcionaste suficientes opciones para recuperar su contenido.<br/>"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body
@@ -1649,7 +1687,7 @@ msgstr "Su sitio web es perfecto para:"
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.template_footer_minimalist
 msgid "example"
-msgstr ""
+msgstr "ejemplo"
 
 #. module: tattoo_shop
 #: model_terms:ir.ui.view,arch_db:tattoo_shop.welcome_article_body
@@ -1705,6 +1743,24 @@ msgstr ""
 "selección</strong> – Desde lóbulos hasta cartílago, septum u obligo, lo "
 "hacemos todo.<br>🔹 <strong>Fácil</strong> – Seleccione su perforación, "
 "elija un horario y llegue a su cita, nosotros nos encargamos de lo demás."
+
+#~ msgid ""
+#~ "<a href=\"tel:+32%202%20290%2034%2090\" "
+#~ "class=\"o_translate_inline\"><span class=\"text-o-color-3\">+32 2 290 34 "
+#~ "90</span></a>"
+#~ msgstr ""
+#~ "<a href=\"tel:+32%202%20290%2034%2090\" "
+#~ "class=\"o_translate_inline\"><span class=\"text-o-color-3\">+32 2 290 34 "
+#~ "90</span></a>"
+
+#~ msgid ""
+#~ "<br/>\n"
+#~ "                                            <a href=\"tel:"
+#~ "+32%202%20290%2034%2090\" class=\"o_translate_inline\">+32 2 290 34 90</a>"
+#~ msgstr ""
+#~ "<br/>\n"
+#~ "                                            <a href=\"tel:"
+#~ "+32%202%20290%2034%2090\" class=\"o_translate_inline\">+32 2 290 34 90</a>"
 
 #~ msgid ""
 #~ "<div data-oe-version=\"1.0\">\n"

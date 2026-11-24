@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 18:16+0000\n"
-"PO-Revision-Date: 2026-10-22 04:38+0000\n"
+"POT-Creation-Date: 2026-11-13 18:21+0000\n"
+"PO-Revision-Date: 2026-11-20 04:38+0000\n"
 "Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
 "projects/odoo-20/headhunter/zh_Hans/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_about_us
@@ -528,6 +528,13 @@ msgstr "<b>关键配置规则</b>"
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid ""
+"<b>Localisation:</b> To specify job localisation, create the desired address "
+"as sub contact of your company and select it from the job offer"
+msgstr ""
+
+#. module: headhunter
+#: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
+msgid ""
 "<b>Locate the Candidate:</b> Find the new application within that Job "
 "Position in the back-end."
 msgstr "<b>定位候选人:</b> 在后端该工作岗位下找到新的申请。"
@@ -553,6 +560,13 @@ msgstr "<b>开放:</b> 可以发布的有效职位。"
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "<b>Opportunity Creation → Quotation/Sales Order → Invoicing.</b>"
 msgstr "<b>商机创建 → 报价单/销售订单 → 开票。</b>"
+
+#. module: headhunter
+#: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
+msgid ""
+"<b>Public Sector:</b> Create, configure and select the appropriate price "
+"list on a quote or directly assign it to a customer for all future quotes."
+msgstr ""
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -823,6 +837,81 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
+"<div>您好，</div>\n"
+"                <div><br></div>\n"
+"                <div style=\"margin: 0px; padding: 0px\">\n"
+"                    <p style=\"\n"
+"                            border-radius: 0px;\n"
+"                            border-style: none;\n"
+"                            padding: 0px;\n"
+"                            margin: 0px 0 16px 0;\n"
+"                            box-sizing: border-box;\n"
+"                            border-left-color: #111827;\n"
+"                            border-bottom-color: #111827;\n"
+"                            border-right-color: #111827;\n"
+"                            border-top-color: #111827;\n"
+"                            border-left-width: 0px;\n"
+"                            border-bottom-width: 0px;\n"
+"                            border-right-width: 0px;\n"
+"                            border-top-width: 0px;\n"
+"                        \">\n"
+"                        随信附上空缺职位的最新简历，请查收。\n"
+"                    </p>\n"
+"                    <p style=\"\n"
+"                            border-radius: 0px;\n"
+"                            border-style: none;\n"
+"                            padding: 0px;\n"
+"                            margin: 0px 0 16px 0;\n"
+"                            box-sizing: border-box;\n"
+"                            border-left-color: #111827;\n"
+"                            border-bottom-color: #111827;\n"
+"                            border-right-color: #111827;\n"
+"                            border-top-color: #111827;\n"
+"                            border-left-width: 0px;\n"
+"                            border-bottom-width: 0px;\n"
+"                            border-right-width: 0px;\n"
+"                            border-top-width: 0px;\n"
+"                        \">\n"
+"                        为方便您查看，所有应聘者资料（包括其实时空闲时间）均"
+"已在您的门户上更新。\n"
+"                    </p>\n"
+"                    <p style=\"\n"
+"                            border-radius: 0px;\n"
+"                            border-style: none;\n"
+"                            padding: 0px;\n"
+"                            margin: 0px 0 16px 0;\n"
+"                            box-sizing: border-box;\n"
+"                            border-left-color: #111827;\n"
+"                            border-bottom-color: #111827;\n"
+"                            border-right-color: #111827;\n"
+"                            border-top-color: #111827;\n"
+"                            border-left-width: 0px;\n"
+"                            border-bottom-width: 0px;\n"
+"                            border-right-width: 0px;\n"
+"                            border-top-width: 0px;\n"
+"                        \">\n"
+"                        如有任何中意的候选人，或需要我安排首轮面试，请随时告"
+"知。\n"
+"                    </p>\n"
+"                    <p style=\"\n"
+"                            border-radius: 0px;\n"
+"                            border-style: none;\n"
+"                            padding: 0px;\n"
+"                            margin: 0px 0 16px 0;\n"
+"                            box-sizing: border-box;\n"
+"                            border-left-color: #111827;\n"
+"                            border-bottom-color: #111827;\n"
+"                            border-right-color: #111827;\n"
+"                            border-top-color: #111827;\n"
+"                            border-left-width: 0px;\n"
+"                            border-bottom-width: 0px;\n"
+"                            border-right-width: 0px;\n"
+"                            border-top-width: 0px;\n"
+"                        \">\n"
+"                        顺致问候，\n"
+"                    </p>\n"
+"                </div>\n"
+"            "
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -1163,8 +1252,8 @@ msgstr ""
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.template_footer_mega
-msgid "<span class=\"o_force_ltr\">+1 650-691-3277</span>"
-msgstr "<span class=\"o_force_ltr\">+1 650-691-3277</span>"
+msgid "<span class=\"o_force_ltr\">+1 650-555-0101</span>"
+msgstr ""
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_about_us
@@ -2269,6 +2358,151 @@ msgid ""
 "            \n"
 "        "
 msgstr ""
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"box-sizing:border-box;caption-side:bottom;background-color: white; "
+"border-collapse: collapse; margin-left: 20px;\">\n"
+"                <tbody style=\"border-style:solid;box-sizing:border-"
+"box;border-left-width:0px;border-bottom-width:0px;border-right-"
+"width:0px;border-top-width:0px;border-left-color:inherit;border-bottom-"
+"color:inherit;border-right-color:inherit;border-top-color:inherit;\">\n"
+"                    <tr style=\"border-style:solid;box-sizing:border-"
+"box;border-left-width:0px;border-bottom-width:0px;border-right-"
+"width:0px;border-top-width:0px;border-left-color:inherit;border-bottom-"
+"color:inherit;border-right-color:inherit;border-top-color:inherit;\">\n"
+"                        <td valign=\"top\" style=\"border-style:solid;box-"
+"sizing:border-box;border-left-width:0px;border-bottom-width:0px;border-right-"
+"width:0px;border-top-width:0px;border-left-color:inherit;border-bottom-"
+"color:inherit;border-right-color:inherit;border-top-color:inherit;padding: "
+"0px 10px;\">\n"
+"                            <div style=\"text-align: center\">\n"
+"                                <h2 style=\"margin:0px 0 8px 0;box-"
+"sizing:border-box;font-size:21px;color:#111827;line-height:1.2;font-"
+"weight:500;font-family:'SF Pro Display', -apple-system, BlinkMacSystemFont, "
+"'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, 'Noto Sans', Arial, sans-"
+"serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color "
+"Emoji';\">\n"
+"                                    恭喜！</h2>\n"
+"                                <div style=\"color:grey;\">您的简历获得了积极"
+"评价。</div>\n"
+"                            </div>\n"
+"                            <div style=\"font-size: 13px; margin: 0px; "
+"padding: 0px;\"> 我们刚审阅了您的简历，对您的背景十分感兴趣。由于我们认为您非"
+"常适合该职位，您的申请已进入电话沟通或面试的候选名单。<br><br>\n"
+"                                <div style=\"padding: 16px 8px 16px 8px;\">\n"
+"                                    <a style=\"border-style:solid;box-"
+"sizing:border-box;transition-property:none;transition-delay:0s;transition-"
+"timing-function:ease;transition-duration:0s;transition-behavior:normal;font-"
+"size:13px;border-left-color:#714b67;border-bottom-color:#714b67;border-right-"
+"color:#714b67;border-top-color:#714b67;border-left-width:1px;border-bottom-"
+"width:1px;border-right-width:1px;border-top-width:1px;background-"
+"color:#714b67;user-select:none;cursor:pointer;vertical-align:middle;text-"
+"align:center;line-height:1.5;font-weight:500;display:inline-"
+"block;color:#ffffff;text-decoration: none; padding: 8px 16px; border-radius: "
+"5px;\" href=\"/book/First_interview\" yclass=\"btn btn-primary btn-sm\">\n"
+"                                        预约我的面试 </a>\n"
+"                                </div>\n"
+"                                <t t-if=\"object.recruiter_id.user_id\"> 稍后"
+"将由以下人员与您联系：<br>\n"
+"                                    <strong t-out=\"object.recruiter_id.name "
+"or ''\" style=\"box-sizing:border-box;font-weight:bolder;\">Mitchell\n"
+"                                    Admin</strong><br>\n"
+"                                        <span>电子邮件：<t t-"
+"out=\"object.recruiter_id.work_email or ''\">\n"
+"                                    admin@yourcompany.example.com</t></span>"
+"<br>\n"
+"                                        <span>电话：<t t-"
+"out=\"object.recruiter_id.work_phone or ''\">+1\n"
+"                                    650-123-4567</t></span> <br><br>\n"
+"                                </t>\n"
+"                                期待与您见面， <div style=\"font-size: 11px; "
+"color: grey;\"> -- <br>\n"
+"                                人力资源团队 <t t-if=\"'website_url' in "
+"object.job_id and hasattr(object.job_id, 'website_url') and "
+"object.job_id.website_url\">\n"
+"                                浏览<a href=\"/jobs\" style=\"box-"
+"sizing:border-box;text-decoration:none;color:#717188;\">我们的所有职位</a>"
+"。<br>\n"
+"                                    </t>\n"
+"                                </div> <hr width=\"97%\" style=\"box-sizing: "
+"border-box; height: 1px; opacity: 0.25; color: #374151; background-color: "
+"#cccccc; border: medium none; clear: both; display: block; font-size: 0px; "
+"min-height: 1px; line-height: 0; margin: 16px 0px;\">\n"
+"                                <h3 style=\"margin:0px 0 8px 0;box-"
+"sizing:border-box;font-size:18.2px;line-height:1.2;font-weight:500;font-"
+"family:'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', "
+"Roboto, 'Helvetica Neue', Ubuntu, 'Noto Sans', Arial, sans-serif, 'Apple "
+"Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color "
+"Emoji';color:#9A6C8E;\">\n"
+"                                    <strong style=\"box-sizing:border-"
+"box;font-weight:bolder;\">下一步是什么？</strong>\n"
+"                                </h3> 下一步将是电话沟通或到我们办公室面谈"
+"。&nbsp;<br>\n"
+"                                欢迎随时<strong style=\"box-sizing:border-"
+"box;font-weight:bolder;\">联系我们以获取更快反馈</strong>，若未能及时收到我们"
+"的回复，也请随时联系（直接回复此邮件即可）。 <br>\n"
+"                                <hr width=\"97%\" style=\"box-sizing: border-"
+"box; height: 1px; opacity: 0.25; color: #374151; background-color: #cccccc; "
+"border: medium none; clear: both; display: block; font-size: 0px; min-"
+"height: 1px; line-height: 0; margin: 17px 0px 16px;\">\n"
+"                                <t t-set=\"location\" t-value=\"''\"></t> <t "
+"t-if=\"object.job_id.address_id.name\">\n"
+"                                    <strong t-"
+"out=\"object.job_id.address_id.name or ''\" style=\"box-sizing:border-"
+"box;font-weight:bolder;\">Teksa SpA</strong>\n"
+"                                    <br>\n"
+"                                </t> <t t-"
+"if=\"object.job_id.address_id.street\">\n"
+"                                    <t t-"
+"out=\"object.job_id.address_id.street or ''\">Puerto Madero\n"
+"                                9710</t>\n"
+"                                    <br>\n"
+"                                    <t t-set=\"location\" t-"
+"value=\"object.job_id.address_id.street\"></t>\n"
+"                                </t> <t t-"
+"if=\"object.job_id.address_id.street2\">\n"
+"                                    <t t-"
+"out=\"object.job_id.address_id.street2 or ''\">Of A15,\n"
+"                                Santiago (RM)</t>\n"
+"                                    <br>\n"
+"                                    <t t-set=\"location\" t-value=\"'%s, %s' "
+"% (location, object.job_id.address_id.street2)\"></t>\n"
+"                                </t> <t t-"
+"if=\"object.job_id.address_id.city\">\n"
+"                                    <t t-out=\"object.job_id.address_id.city "
+"or ''\">Pudahuel</t>, <t t-set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.city)\"></t>\n"
+"                                </t> <t t-"
+"if=\"object.job_id.address_id.state_id.name\">\n"
+"                                    <t t-"
+"out=\"object.job_id.address_id.state_id.name or ''\">C1</t>, <t t-"
+"set=\"location\" t-value=\"'%s, %s' % (location, "
+"object.job_id.address_id.state_id.name)\"></t>\n"
+"                                </t> <t t-"
+"if=\"object.job_id.address_id.zip\">\n"
+"                                    <t t-out=\"object.job_id.address_id.zip "
+"or ''\">98450</t>\n"
+"                                    <t t-set=\"location\" t-value=\"'%s, %s' "
+"% (location, object.job_id.address_id.zip)\"></t>\n"
+"                                </t> <br>\n"
+"                                <t t-"
+"if=\"object.job_id.address_id.country_id.name\">\n"
+"                                    <t t-"
+"out=\"object.job_id.address_id.country_id.name or ''\">\n"
+"                                Argentina</t>\n"
+"                                    <br>\n"
+"                                    <t t-set=\"location\" t-value=\"'%s, %s' "
+"% (location, object.job_id.address_id.country_id.name)\"></t>\n"
+"                                </t> <br>\n"
+"                            </div>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </tbody>\n"
+"            </table>\n"
+"            <p style=\"margin:0px 0 16px 0;box-sizing:border-box;\">\n"
+"                <br>\n"
+"            </p>\n"
+"            \n"
+"        "
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2398,6 +2632,11 @@ msgstr ""
 "Arctus Financial Group 是一家总部位于新加坡的金融服务控股公司，在东南亚经营财"
 "富管理、贷款和数字支付业务。集团在 11 个国家拥有 4,200 名员工，四年间营收从 "
 "2.8 亿新元增长到 8.9 亿新元，由一批主权财富和战略投资者组成的财团支持。"
+
+#. module: headhunter
+#: model_terms:product.template,description:headhunter.product_product_11_product_template
+msgid "Assessment &amp; Psychometric Testing"
+msgstr ""
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -2708,6 +2947,11 @@ msgid "Decisions"
 msgstr "决策"
 
 #. module: headhunter
+#: model:product.template,name:headhunter.product_product_10_product_template
+msgid "Deep Reference & Background Check"
+msgstr ""
+
+#. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_home
 msgid ""
 "Deep-dive session with your board or executive team. We codify the mandate, "
@@ -2756,6 +3000,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:headhunter.x_status_bar_done_value
 msgid "Done"
 msgstr "已完成"
+
+#. module: headhunter
+#: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
+msgid "Down payments based on percentage or amount take seconds to send."
+msgstr ""
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_home
@@ -2820,6 +3069,13 @@ msgstr "能源"
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_about_us
 msgid "Energy &amp; Utilities"
 msgstr "能源与公用事业"
+
+#. module: headhunter
+#: model:sale.order.template,name:headhunter.sale_order_template_3
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_1
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_17
+msgid "Engagement & Market Intelligence"
+msgstr ""
 
 #. module: headhunter
 #: model:crm.tag,name:headhunter.crm_tag_9
@@ -2888,6 +3144,16 @@ msgid "Executive"
 msgstr "高管"
 
 #. module: headhunter
+#: model:product.template,name:headhunter.product_product_11_product_template
+msgid "Executive Leadership Assessment"
+msgstr "高管领导力评估"
+
+#. module: headhunter
+#: model:product.template,name:headhunter.product_product_12_product_template
+msgid "Executive Search Placement Fee"
+msgstr ""
+
+#. module: headhunter
 #: model:ir.model.fields.selection,name:headhunter.x_recruitment_type_external_value
 msgid "External"
 msgstr "外部"
@@ -2927,6 +3193,15 @@ msgstr "跟踪每个工作岗位申请人的简历和可用情况"
 #: model_terms:ir.ui.view,arch_db:headhunter.template_footer_mega
 msgid "Follow us"
 msgstr "跟随我们"
+
+#. module: headhunter
+#: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
+msgid ""
+"For products requiring manual delivery update like hiring candidate plan, "
+"adjust the sale order line delivered quantity and create a regular invoice."
+msgstr ""
+"对于需要手动更新交付的产品（如招聘候选人计划），请调整销售订单明细中的已交付"
+"数量并创建常规发票。"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_services
@@ -3087,6 +3362,17 @@ msgid "In Recruitment"
 msgstr "正在招聘"
 
 #. module: headhunter
+#: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
+msgid ""
+"In the case of indexed product price of first year package for example, "
+"proceed with down payments following agreed terms and once candidate is "
+"recruited, adjust the sale order line quantity and price with hiring package "
+"and generate your final invoice."
+msgstr ""
+"例如，当产品价格与首年薪酬方案挂钩时，请按约定条款处理预付款；待候选人录用后"
+"，根据录用方案调整销售订单明细的数量和价格，并生成最终发票。"
+
+#. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_about_us
 msgid "Industrial &amp; Manufacturing"
 msgstr "工业与制造业"
@@ -3211,6 +3497,11 @@ msgid "Majority of senior placements"
 msgstr "大多数高管猎聘职位"
 
 #. module: headhunter
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_11
+msgid "Market Intelligence & Mapping"
+msgstr ""
+
+#. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_home
 msgid "Market Mapping"
 msgstr "市场地图"
@@ -3319,6 +3610,12 @@ msgid ""
 "duplicates. Correct unusual or erroneous application data,\n"
 "                    or simply archive duplicate applications."
 msgstr ""
+"请定期在“所有申请”列表中执行类似操作，筛选出\n"
+"                    处于进行中且已关联工作职位的申请。按上述各个字段对该列表"
+"进行升序\n"
+"                    和降序排列，有助于您快速识别重复项。请更正异常或错误的申"
+"请数据，\n"
+"                    或直接归档重复的申请。"
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -3423,6 +3720,20 @@ msgid "Pipeline Status"
 msgstr "管道状态"
 
 #. module: headhunter
+#: model:product.template,description_sale:headhunter.product_product_12_product_template
+msgid ""
+"Placement fee calculated as X% of the candidate's first-year guaranteed "
+"gross compensation."
+msgstr ""
+
+#. module: headhunter
+#: model:sale.order.template,name:headhunter.sale_order_template_5
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_24
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_8
+msgid "Placement, Onboarding & Closing"
+msgstr ""
+
+#. module: headhunter
 #: model:mail.template,subject:headhunter.mail_template_60
 msgid ""
 "Potential Applicant for {{ (object.job_id.name + ' ') if object.job_id else "
@@ -3470,6 +3781,11 @@ msgstr "专业服务"
 #: model_terms:hr.job,website_description:headhunter.hr_job_7
 msgid "Progress bar"
 msgstr "进度条"
+
+#. module: headhunter
+#: model:product.pricelist,name:headhunter.product_pricelist_2
+msgid "Public Sector"
+msgstr ""
 
 #. module: headhunter
 #: model:ir.model.fields,field_description:headhunter.x_published_field
@@ -3561,6 +3877,11 @@ msgid "Reserve"
 msgstr "预留"
 
 #. module: headhunter
+#: model:sale.order.template,name:headhunter.sale_order_template_1
+msgid "Retained Executive Search"
+msgstr ""
+
+#. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_home
 msgid "Revenues led by our placements"
 msgstr "由我们推荐的候选人带来的营收"
@@ -3576,6 +3897,11 @@ msgstr "审阅简历，更新候选人的技能、经验以及该职位所需的
 #: model:ir.actions.server,name:headhunter.cv_sent_applicants_route
 msgid "Route displaying CV Sent Applicants"
 msgstr "显示已发送简历申请人的路由"
+
+#. module: headhunter
+#: model:product.template,name:headhunter.product_product_13_product_template
+msgid "Salary & Compensation Benchmark"
+msgstr ""
 
 #. module: headhunter
 #: model:hr.department,name:headhunter.hr_department_3
@@ -3711,6 +4037,13 @@ msgid "Soft dependency"
 msgstr "软依赖"
 
 #. module: headhunter
+#: model:sale.order.template,name:headhunter.sale_order_template_4
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_20
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_4
+msgid "Sourcing & Candidate Shortlisting"
+msgstr ""
+
+#. module: headhunter
 #: model_terms:hr.job,website_description:headhunter.hr_job_4
 #: model_terms:hr.job,website_description:headhunter.hr_job_6
 #: model_terms:hr.job,website_description:headhunter.hr_job_7
@@ -3758,6 +4091,16 @@ msgstr "人才招聘"
 #: model:ir.actions.server,name:headhunter.uninstall_hook_action_server
 msgid "Talent Acquisition: Uninstall Hook"
 msgstr "人才招聘：卸载钩子"
+
+#. module: headhunter
+#: model:sale.order.template,name:headhunter.sale_order_template_2
+msgid "Talent Advisory & Market Mapping"
+msgstr ""
+
+#. module: headhunter
+#: model:sale.order.template.line,name:headhunter.sale_order_template_line_14
+msgid "Talent Pool Delivery"
+msgstr ""
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
@@ -4107,6 +4450,14 @@ msgstr "您可以在主仪表板上访问 Odoo 数据库中安装的每一个应
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid ""
+"You can as well as introduce a written interview stage during the "
+"recruitment process activating the dedicated setting, creating the different "
+"interview surveys and pointing the one applicable from the job position form."
+msgstr ""
+
+#. module: headhunter
+#: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
+msgid ""
 "You can generate sales orders directly from a job position or manually link "
 "opportunities, sales orders, and\n"
 "                    job positions. This flexibility ensures that regardless "
@@ -4196,8 +4547,8 @@ msgstr "例如：Python 开发人员、销售经理、数据科学家、会计�
 
 #. module: headhunter
 #: model_terms:ir.ui.view,arch_db:headhunter.view_page_contactus
-msgid "eg. john.doe@odoo.com"
-msgstr "例如：john.doe@odoo.com"
+msgid "eg. john.doe@example.com"
+msgstr ""
 
 #. module: headhunter
 #: model:base.automation,name:headhunter.status_update_base_automation
@@ -4255,6 +4606,12 @@ msgstr "🎓 文件管理"
 #: model_terms:ir.ui.view,arch_db:headhunter.welcome_article_body
 msgid "🎓 Sign"
 msgstr "🎓 签名"
+
+#~ msgid "<span class=\"o_force_ltr\">+1 650-691-3277</span>"
+#~ msgstr "<span class=\"o_force_ltr\">+1 650-691-3277</span>"
+
+#~ msgid "eg. john.doe@odoo.com"
+#~ msgstr "例如：john.doe@odoo.com"
 
 #~ msgid ""
 #~ "<div>Hi,</div>\n"

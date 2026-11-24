@@ -17,9 +17,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~17.4+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 19:03+0000\n"
-"PO-Revision-Date: 2026-10-30 15:59+0000\n"
-"Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
+"POT-Creation-Date: 2026-11-13 18:53+0000\n"
+"PO-Revision-Date: 2026-11-16 18:33+0000\n"
+"Last-Translator: OpenAI <noreply-mt-openai@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/odoo-"
 "20/surveyor/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -28,15 +28,31 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #. module: surveyor
-#: model:website.page,url:surveyor.website_page_5
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid "\"Jim\" our latest drone technology"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "\"Jim\" our latest surveying drone technology"
+msgstr "\"Jim\", nossa mais recente tecnologia de drones de agrimensura"
+
+#. module: surveyor
+#: model:website.page,url:surveyor.page_about_us
 msgid "/about-us"
 msgstr "/about-us"
 
 #. module: surveyor
-#: model:website.page,url:surveyor.website_page_6
+#: model:website,contact_us_link_url:surveyor.website_industry
+#: model:website.page,url:surveyor.page_contactus
+msgid "/contactus"
+msgstr "/contactus"
+
+#. module: surveyor
+#: model:website.page,url:surveyor.page_services
 #, fuzzy
 msgid "/our-services"
 msgstr "Nossos serviços"
@@ -53,6 +69,33 @@ msgid "3D Scan"
 msgstr "Digitalização 3D"
 
 #. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"3D digital point cloud model of a city skyline with skyscrapers highlighted "
+"in green and surrounding buildings in orange."
+msgstr ""
+"Modelo digital em nuvem de pontos 3D do horizonte de uma cidade com arranha-"
+"céus destacados em verde e edifícios ao redor em laranja."
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"3D digital terrain model of a snow-capped mountain range isolated against a "
+"dark background."
+msgstr ""
+"Modelo digital 3D de uma cordilheira coberta de neve isolada em fundo escuro."
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "3D laser scanning"
+msgstr "Escaneamento a laser 3D"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "3D modeling"
+msgstr "Modelagem 3D"
+
+#. module: surveyor
 #: model:documents.document,name:surveyor.documents_folder_7
 msgid "3D scan"
 msgstr "Digitalização 3D"
@@ -63,10 +106,81 @@ msgid "3D scanning"
 msgstr "Digitalização 3D"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-#: model_terms:ir.ui.view,arch_db:surveyor.homepage
-msgid "<b>ABOUT US</b>"
-msgstr "<b>SOBRE NÓS</b>"
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "3D terrain modeling"
+msgstr "Modelagem de terreno em 3D"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<a class=\"o_translate_inline btn btn-lg btn-custom text-o-color-4\" "
+"style=\"background-color: rgb(26, 26, 24); border-width: 10px; border-style: "
+"solid; border-image: none; border-left-color: var(--o-color-4); border-"
+"bottom-color: var(--o-color-4); border-right-color: var(--o-color-4); border-"
+"top-color: var(--o-color-4);\" href=\"/our-services\">View All Services</a>"
+msgstr ""
+"<a class=\"o_translate_inline btn btn-lg btn-custom text-o-color-4\" "
+"style=\"background-color: rgb(26, 26, 24); border-width: 10px; border-style: "
+"solid; border-image: none; border-left-color: var(--o-color-4); border-"
+"bottom-color: var(--o-color-4); border-right-color: var(--o-color-4); border-"
+"top-color: var(--o-color-4);\" href=\"/our-services\">Ver todos os serviços</"
+"a>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<a class=\"o_translate_inline btn btn-lg btn-secondary\" href=\"/"
+"contactus\">Contact Us</a>"
+msgstr ""
+"<a class=\"o_translate_inline btn btn-lg btn-secondary\" href=\"/contactus\">"
+"Contact Us</a>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<a class=\"o_translate_inline btn btn-lg btn-secondary\" href=\"/"
+"contactus\">Discuss Your Project</a>"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.template_footer_centered
+msgid "<a href=\"/\" class=\"o_translate_inline\"><strong>Home</strong></a>"
+msgstr "<a href=\"/\" class=\"o_translate_inline\"><strong>Início</strong></a>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.template_footer_centered
+msgid ""
+"<a href=\"/about-us\" class=\"o_translate_inline\"><strong>About Us</"
+"strong></a>"
+msgstr "<a href=\"/about-us\" class=\"o_translate_inline\">Sobre nós</a>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"<a href=\"/contactus\" class=\"o_translate_inline btn btn-lg btn-"
+"secondary\">Contact Us</a>"
+msgstr ""
+"<a href=\"/contactus\" class=\"o_translate_inline btn btn-primary\">Entre em "
+"contato conosco</a>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.template_footer_centered
+msgid ""
+"<a href=\"/contactus\" class=\"o_translate_inline\"><strong>Contact Us</"
+"strong></a>"
+msgstr ""
+"<a href=\"/contactus\" class=\"o_translate_inline\">Entre em contato "
+"conosco</a>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.template_footer_centered
+msgid ""
+"<a href=\"/our-services\" class=\"o_translate_inline\"><strong>Services</"
+"strong></a>"
+msgstr ""
+"<a href=\"/our-services\" class=\"o_translate_inline\"><strong>Serviços</"
+"strong></a>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
@@ -133,8 +247,8 @@ msgid ""
 "                (e.g., <i>Printed Maps</i>) onto a single clear statement."
 msgstr ""
 "<b>Faturamento Combinado:</b> Consolide horas faturáveis de planilha de "
-"horas, quilometragem/despesas e bens físicos entregues (por exemplo, <i>"
-"Mapas Impressos</i>) em um único extrato claro."
+"horas, quilometragem/despesas e bens físicos entregues (por exemplo, "
+"<i>Mapas Impressos</i>) em um único extrato claro."
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
@@ -285,8 +399,8 @@ msgid ""
 "feed incoming inquiries into the CRM pipeline and\n"
 "                    auto-assign them based on region or survey type."
 msgstr ""
-"<b>Aproveite os leads recebidos do seu site</b> Configure o formulário <b>"
-"\"Solicitar um Orçamento de Levantamento\"</b> do seu site para alimentar "
+"<b>Aproveite os leads recebidos do seu site</b> Configure o formulário "
+"<b>\"Solicitar um Orçamento de Levantamento\"</b> do seu site para alimentar "
 "automaticamente as consultas recebidas no pipeline de CRM e atribuí-las "
 "automaticamente com base na região ou tipo de levantamento."
 
@@ -420,17 +534,17 @@ msgstr ""
 "específicas do projeto para um faturamento preciso."
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.homepage
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
 msgid ""
-"<font style=\"font-size: 62px;\">\n"
-"                                        <b>— Surveying Solutions for You —</"
-"b>\n"
-"                                    </font>"
+"<br/> By three independent surveyors, <strong>Catherine Mercer</strong>, "
+"<strong>Julien Moreau</strong> and <strong>Daniel Varga</strong>, who shared "
+"a simple belief: every successful project begins with a precise "
+"understanding of the land."
 msgstr ""
-"<font style=\"font-size: 62px;\">\n"
-"                                        <b>— Levantando soluções para você —"
-"</b>\n"
-"                                    </font>"
+"<br/> Por três topógrafos independentes, <strong>Catherine Mercer</strong>, "
+"<strong>Julien Moreau</strong> e <strong>Daniel Varga</strong>, que "
+"compartilhavam uma crença simples: todo projeto de sucesso começa com uma "
+"compreensão precisa do terreno."
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
@@ -449,8 +563,8 @@ msgid ""
 "span>"
 msgstr ""
 "<i class=\"oi oi-1x oi-filled oi-fw me-2\" data-icon=\"mail\"/>\n"
-"                                                <span>"
-"info@yourcompany.example.com</span>"
+"                                                <span>info@yourcompany.example.com</"
+"span>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
@@ -460,8 +574,8 @@ msgid ""
 "class=\"o_force_ltr\">3575 Fake Buena Vista Avenue</span>"
 msgstr ""
 "<i class=\"oi oi-filled oi-fw me-2\" data-icon=\"location_on\"/>\n"
-"                                                <span class=\"o_force_ltr\">"
-"3575 Avenida Buena Vista (fictícia)</span>"
+"                                                <span "
+"class=\"o_force_ltr\">3575 Avenida Buena Vista (fictícia)</span>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
@@ -471,8 +585,8 @@ msgid ""
 "class=\"o_force_ltr\">+1 (650) 555-0111</span>"
 msgstr ""
 "<i class=\"oi oi-filled oi-fw me-2\" data-icon=\"phone\"/>\n"
-"                                                <span class=\"o_force_ltr\">"
-"+1 (650) 555-0111</span>"
+"                                                <span "
+"class=\"o_force_ltr\">+1 (650) 555-0111</span>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
@@ -484,51 +598,394 @@ msgstr ""
 "normal\" aria-label=\"Banner Info\">💡</i>"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
 msgid ""
-"<span class=\"carousel-control-next-icon\"/>\n"
-"                                        <span class=\"visually-"
-"hidden\">Next</span>"
+"<span class=\"display-4-fs\">\n"
+"                                                <strong>What drives us</"
+"strong>\n"
+"                                            </span>"
 msgstr ""
-"<span class=\"carousel-control-next-icon\"/>\n"
-"                                        <span class=\"visually-"
-"hidden\">Próximo</span>"
+"<span class=\"display-4-fs\">\n"
+"                                                <strong>O que nos move</"
+"strong>\n"
+"                                            </span>"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
-msgid ""
-"<span class=\"carousel-control-prev-icon\"/>\n"
-"                                        <span class=\"visually-"
-"hidden\">Previous</span>"
-msgstr ""
-"<span class=\"carousel-control-prev-icon\"/>\n"
-"                                        <span class=\"visually-"
-"hidden\">Anterior</span>"
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "<span class=\"display-4-fs\"><strong>Our Daily Missions</strong></span>"
+msgstr "<span class=\"display-4-fs\"><strong>Vinhedo</strong></span>"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
 msgid ""
-"<span class=\"s_blockquote_author\"><b>Iris DOE</b> • CEO of MyCompany</span>"
+"<span class=\"h4-fs\">\n"
+"                                                    <strong>Experience &amp; "
+"Expertise</strong>\n"
+"                                                </span>"
 msgstr ""
-"<span class=\"s_blockquote_author\"><b>Cláudia OLIVEIRA</b> • CEO da "
-"empresa</span>"
+"<span class=\"h4-fs\">\n"
+"                                                    <strong>Experiência "
+"&amp; Expertise</strong>\n"
+"                                                </span>"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
 msgid ""
-"<span class=\"s_blockquote_author\"><b>Jane DOE</b> • CEO of MyCompany</span>"
+"<span class=\"h4-fs\">\n"
+"                                                    <strong>Precision &amp; "
+"Accuracy</strong>\n"
+"                                                </span>"
 msgstr ""
-"<span class=\"s_blockquote_author\"><b>Jane DOE</b> • CEO da Empresa</span>"
+"<span class=\"h4-fs\">\n"
+"                                                    <strong>Precisão &amp; "
+"Exatidão</strong>\n"
+"                                                </span>"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
 msgid ""
-"<span class=\"s_blockquote_author\"><b>John DOE</b> • CEO of MyCompany</span>"
+"<span class=\"h4-fs\">\n"
+"                                                    <strong>Trust &amp; "
+"commitment</strong>\n"
+"                                                </span>"
 msgstr ""
-"<span class=\"s_blockquote_author\"><b>John DOE</b> • CEO da Empresa</span>"
+"<span class=\"h4-fs\">\n"
+"                                                    <strong>Confiança &amp; "
+"compromisso</strong>\n"
+"                                                </span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span class=\"h4-fs\"><strong>Boundary &amp; Land Surveying</strong></span>"
+msgstr ""
+"<span class=\"h4-fs\"><strong>Levantamento de terras &amp; divisas</strong></"
+"span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "<span class=\"h4-fs\"><strong>Land Subdivision</strong></span>"
+msgstr "<span class=\"h4-fs\"><strong>Entrevista con RH</strong></span><br>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"<span class=\"h4-fs\"><strong>Planning a surveying, mapping, or topographic "
+"project?</strong></span>"
+msgstr ""
+"<span class=\"h4-fs\"><strong>Planejando um projeto de agrimensura, "
+"mapeamento ou topografia?</strong></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span class=\"h4-fs\"><strong>Property &amp; Condominium</strong></span>"
+msgstr ""
+"<span class=\"h4-fs\"><strong>Propriedade &amp; Condomínio</strong></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "<span class=\"h4-fs\"><strong>Topography &amp; Mapping</strong></span>"
+msgstr ""
+"<span class=\"h4-fs\"><strong>Topografia &amp; Mapeamento</strong></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span class=\"h5-fs\">\n"
+"                                                <span class=\"text-o-"
+"color-2\">\n"
+"                                                    <br/>\n"
+"                                                    <strong>ALTITUDE</"
+"strong>\n"
+"                                                </span>\n"
+"                                                <span class=\"text-200\">\n"
+"                                                    delivers precision and "
+"reliability in geomatics and surveying. We provide the accurate data your "
+"projects demand.\n"
+"                                                    <br/><br/>\n"
+"                                                </span>\n"
+"                                            </span>"
+msgstr ""
+"<span class=\"h5-fs\">\n"
+"                                                <span class=\"text-o-color-"
+"2\">\n"
+"                                                    <br/>\n"
+"                                                    <strong>ALTITUDE</strong>"
+"\n"
+"                                                </span>\n"
+"                                                <span class=\"text-200\">\n"
+"                                                    entrega precisão e "
+"confiabilidade em geomática e topografia. Fornecemos os dados precisos que "
+"seus projetos exigem.\n"
+"                                                    <br/><br/>\n"
+"                                                </span>\n"
+"                                            </span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid "<span class=\"h5-fs\">What happens next?<br/><br/></span>"
+msgstr "<span class=\"h5-fs\">O que acontece agora?<br/><br/></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid "<span class=\"h5-fs\">Why work with us?</span>"
+msgstr "<span class=\"h5-fs\">Por que trabalhar conosco?</span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"<span class=\"h6-fs\">Capture accurate information about the land, from "
+"elevations and contours to detailed 3D terrain data. Our mapping services "
+"provide reliable site information for planning, design, engineering, and "
+"construction projects.</span><br/>"
+msgstr ""
+"<span class=\"h6-fs\">Capture informações precisas sobre o terreno, desde "
+"elevações e contornos até dados detalhados de terreno em 3D. Nossos serviços "
+"de mapeamento fornecem informações confiáveis do local para projetos de "
+"planejamento, design, engenharia e construção.</span><br/>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"<span class=\"h6-fs\">Establish clear and accurate property boundaries with "
+"professional land surveys. We provide reliable measurements and "
+"documentation to help property owners, developers, and professionals protect "
+"land rights and make informed decisions.</span>"
+msgstr ""
+"<span class=\"h6-fs\">Estabeleça limites de propriedade claros e precisos "
+"com levantamentos topográficos profissionais. Fornecemos medições e "
+"documentação confiáveis para ajudar proprietários, incorporadores e "
+"profissionais a proteger direitos de propriedade e tomar decisões "
+"informadas.</span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"<span class=\"h6-fs\">Fill out the form below with a few details about your "
+"needs.</span><span style=\"font-size: 16px;\"><br/></span><span class=\"h6-"
+"fs\">This will help us better understand your project and provide you with "
+"the most suitable solution.</span>"
+msgstr ""
+"<span class=\"h6-fs\">Preencha o formulário abaixo com alguns detalhes sobre "
+"suas necessidades.</span><span style=\"font-size: 16px;\"><br/></span><span "
+"class=\"h6-fs\">Isso nos ajudará a entender melhor seu projeto e fornecer a "
+"solução mais adequada.</span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"<span class=\"h6-fs\">Request received</span><br/>\n"
+"                                            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\n"
+"                                            <span class=\"o_small-"
+"fs\"><strong>We review your project details.</strong></span>"
+msgstr ""
+"<span class=\"h6-fs\">Solicitação recebida</span><br/>\n"
+"                                            "
+"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\n"
+"                                            <span class=\"o_small-fs\">"
+"<strong>Analisamos os detalhes do seu projeto.</strong></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"<span class=\"h6-fs\">Transform physical spaces and environments into "
+"precise digital data. Our advanced scanning and mapping solutions provide "
+"high-resolution information for documentation, analysis, design, and digital "
+"modeling.</span><br/>"
+msgstr ""
+"<span class=\"h6-fs\">Transforme espaços físicos e ambientes em dados "
+"digitais precisos. Nossas soluções avançadas de escaneamento e mapeamento "
+"fornecem informações de alta resolução para documentação, análise, projeto e "
+"modelagem digital.</span><br/>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span class=\"o_animated_text o_animate o_anim_fade_in o_anim_from_bottom\" "
+"style=\"animation-duration: 0.6s;\">\n"
+"                                                <span class=\"o_rfs\">\n"
+"                                                    <strong>\n"
+"                                                        <span style=\"font-"
+"size: clamp(8px, 1em + 3.3701vw, 400px);\">25</span>\n"
+"                                                    </strong>\n"
+"                                                </span>\n"
+"                                                <span style=\"font-size: "
+"30px; --text-highlight-color: #CDFF20; --text-highlight-width: 5px;\" "
+"class=\"o_text_highlight o_text_highlight_underline\">YEARS OF EXPERIENCE</"
+"span>\n"
+"                                            </span>"
+msgstr ""
+"<span class=\"o_animated_text o_animate o_anim_fade_in o_anim_from_bottom\" "
+"style=\"animation-duration: 0.6s;\">\n"
+"                                                <span class=\"o_rfs\">\n"
+"                                                    <strong>\n"
+"                                                        <span style=\"font-"
+"size: clamp(8px, 1em + 3.3701vw, 400px);\">25</span>\n"
+"                                                    </strong>\n"
+"                                                </span>\n"
+"                                                <span style=\"font-size: "
+"30px; --text-highlight-color: #CDFF20; --text-highlight-width: 5px;\" "
+"class=\"o_text_highlight o_text_highlight_underline\">ANOS DE EXPERIÊNCIA</"
+"span>\n"
+"                                            </span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span class=\"o_small-fs\">\n"
+"                                                        <strong>Alice "
+"Dupont</strong>\n"
+"                                                        <br/>\n"
+"                                                        <span>Surveyor - "
+"Altitude</span>\n"
+"                                                    </span>"
+msgstr ""
+"<span class=\"o_small-fs\">\n"
+"                                                        <strong>Alice "
+"Dupont</strong>\n"
+"                                                        <br/>\n"
+"                                                        <span>Surveyor - "
+"Altitude</span>\n"
+"                                                    </span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid ""
+"<span class=\"o_small-fs\"> <strong>Catherine Mercer</strong>, "
+"<strong>Julien Moreau</strong> and <strong>Daniel Varga</strong>, <span "
+"class=\"text-o-color-1\"> founders of ALTITUDE</span> </span>"
+msgstr ""
+"<span class=\"o_small-fs\"> <strong>Catherine Mercer</strong>, <strong>"
+"Julien Moreau</strong> e <strong>Daniel Varga</strong>, <span class=\"text-o-"
+"color-1\"> fundadores da ALTITUDE</span> </span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"<span class=\"s_badge badge o_animable text-bg-secondary\" data-"
+"name=\"Badge\" data-vxml=\"001\" data-snippet=\"s_badge\" style=\"font-size: "
+"16px;\">\n"
+"                                                <span class=\"text-o-"
+"color-1\">Accurate Data</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-"
+"color-1\">Reliable Results</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-"
+"color-1\">Tailored Solutions</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-"
+"color-1\">Field Expertise</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-"
+"color-1\">Safety First</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-"
+"color-1\">Quality Assured</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-"
+"color-1\">Trusted Partner</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-"
+"color-1\">Advanced Technology</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-"
+"color-1\">Fast Delivery</span>\n"
+"                                            </span>"
+msgstr ""
+"<span class=\"s_badge badge o_animable text-bg-secondary\" data-"
+"name=\"Badge\" data-vxml=\"001\" data-snippet=\"s_badge\" style=\"font-size: "
+"16px;\">\n"
+"                                                <span class=\"text-o-color-"
+"1\">Accurate Data</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-color-"
+"1\">Reliable Results</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-color-"
+"1\">Tailored Solutions</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-color-"
+"1\">Field Expertise</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-color-"
+"1\">Safety First</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-color-"
+"1\">Quality Assured</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-color-"
+"1\">Trusted Partner</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-color-"
+"1\">Advanced Technology</span>\n"
+"                                            </span>\n"
+"                                            <span class=\"s_badge badge "
+"o_animable text-bg-secondary\" data-name=\"Badge\" data-vxml=\"001\" data-"
+"snippet=\"s_badge\" style=\"font-size: 16px;\">\n"
+"                                                <span class=\"text-o-color-"
+"1\">Fast Delivery</span>\n"
+"                                            </span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "<span class=\"s_progress_bar_text small\">95%</span>"
+msgstr "<span class=\"s_progress_bar_text small\">95%</span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "<span class=\"s_progress_bar_text small\">99.9%</span>"
+msgstr "<span class=\"s_progress_bar_text small\">99,9%</span>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
 msgid "<span class=\"s_website_form_label_content\">Cadastral parcel(s)</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Parcelas cadastrais</span>"
@@ -545,6 +1002,15 @@ msgstr ""
 "class=\"s_website_form_mark\"> *</span>"
 
 #. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"<span class=\"s_website_form_label_content\">Phone Number</span><span "
+"class=\"s_website_form_mark\">  *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Número de Telefone</span><span "
+"class=\"s_website_form_mark\">  *</span>"
+
+#. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Subject</span>\n"
@@ -556,7 +1022,17 @@ msgstr ""
 "class=\"s_website_form_mark\"> *</span>"
 
 #. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"<span class=\"s_website_form_label_content\">Subject</span><span "
+"class=\"s_website_form_mark\">  *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Assunto</span><span "
+"class=\"s_website_form_mark\">  *</span>"
+
+#. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
 msgid "<span class=\"s_website_form_label_content\">Your Company</span>"
 msgstr "<span class=\"s_website_form_label_content\">Sua Empresa</span>"
 
@@ -572,6 +1048,16 @@ msgstr ""
 "class=\"s_website_form_mark\"> *</span>"
 
 #. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Email</span><span "
+"class=\"s_website_form_mark\">  *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Seu e-mail</span>\n"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
+
+#. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
 msgid ""
 "<span class=\"s_website_form_label_content\">Your Name</span>\n"
@@ -581,6 +1067,16 @@ msgstr ""
 "<span class=\"s_website_form_label_content\">Seu nome</span>\n"
 "                                                                    <span "
 "class=\"s_website_form_mark\"> *</span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Name</span><span "
+"class=\"s_website_form_mark\">  *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Seu nome</span>\n"
+"                                  <span class=\"s_website_form_mark\"> *</"
+"span>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
@@ -594,37 +1090,445 @@ msgstr ""
 "class=\"s_website_form_mark\"> *</span>"
 
 #. module: surveyor
-#: model:website.menu,name:surveyor.website_menu_9
-#: model:website.page,name:surveyor.website_page_5
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Question</span><span "
+"class=\"s_website_form_mark\">  *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Sua pergunta</span> <span "
+"class=\"s_website_form_mark\">*</span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.template_footer_centered
+msgid ""
+"<span class=\"text-o-color-2\"><span class=\"o_animated_text o_animate "
+"o_anim_fade_in\">Your Surveying &amp; Mapping Partner</span></span>"
+msgstr ""
+"<span class=\"text-o-color-2\"><span class=\"o_animated_text o_animate "
+"o_anim_fade_in\">Seu parceiro de &amp; mapeamento de pesquisas</span></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"<span class=\"text-o-color-4\">\n"
+"                                                <i class=\"oi oi-fw me-2 "
+"text-o-color-2\" data-icon=\"location_on\" style=\"padding-bottom: 5px; "
+"padding-right: 5px; padding-top: 5px;\"/> <span class=\"o_force_ltr\">Rue du "
+"Laid Burniat 5, 1348 Ottignies-Louvain-la-Neuve<br/></span>\n"
+"                                            </span>"
+msgstr ""
+"<span class=\"text-o-color-4\">\n"
+"                                                <i class=\"oi oi-fw me-2 "
+"text-o-color-2\" data-icon=\"location_on\" style=\"padding-bottom: 5px; "
+"padding-right: 5px; padding-top: 5px;\"/> <span class=\"o_force_ltr\">Rue du "
+"Laid Burniat 5, 1348 Ottignies-Louvain-la-Neuve<br/></span>\n"
+"                                            </span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"<span class=\"text-o-color-4\">\n"
+"                                                <span "
+"class=\"o_force_ltr\">\n"
+"                                                    <i class=\"oi oi-fw oi-"
+"filled me-2 text-o-color-2\" data-icon=\"phone\" style=\"padding-bottom: "
+"5px; padding-right: 5px; padding-top: 5px;\"/> <a href=\"tel:+15555555556\" "
+"class=\"o_translate_inline\">+1&amp;nbsp;555-555-5556</a>\n"
+"                                                </span>\n"
+"                                            </span>"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"<span class=\"text-o-color-4\">\n"
+"                                                <span "
+"class=\"o_force_ltr\">\n"
+"                                                    <span class=\"oi oi-"
+"filled text-o-color-2\" data-icon=\"mail\" style=\"padding-bottom: 5px; "
+"padding-right: 5px; padding-top: 5px;\"/> info@altitude.example.com\n"
+"                                                </span>\n"
+"                                            </span>\n"
+"                                            <br/>"
+msgstr ""
+"<span class=\"text-o-color-4\">\n"
+"                                                <span class=\"o_force_ltr\">"
+"\n"
+"                                                    <span class=\"oi oi-"
+"filled text-o-color-2\" data-icon=\"mail\" style=\"padding-bottom: 5px; "
+"padding-right: 5px; padding-top: 5px;\"/> info@altitude.example.com\n"
+"                                                </span>\n"
+"                                            </span>\n"
+"                                            <br/>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.template_footer_centered
+msgid ""
+"<span class=\"text-o-color-4\"> <span class=\"o_force_ltr\">+1 555-555-5556</"
+"span> </span>"
+msgstr ""
+"<span class=\"text-o-color-4\"> <span class=\"o_force_ltr\">+1 555-555-5556</"
+"span> </span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.template_footer_centered
+msgid "<span class=\"text-o-color-4\">info@altitude.example.com</span>"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span style=\"font-size: 15px;\">Accurate floor plans, legal square footage "
+"calculations, and property division mapping for multi-unit buildings.</span>"
+msgstr ""
+"<span style=\"font-size: 15px;\">Plantas baixas precisas, cálculos de "
+"metragem quadrada legal e mapeamento de divisão de propriedade para "
+"edifícios multifamiliares.</span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span style=\"font-size: 15px;\">Define your legal property limits and "
+"secure your land rights with official boundary surveys.</span>"
+msgstr ""
+"<span style=\"font-size: 15px;\">Defina os limites legais da sua propriedade "
+"e garanta os seus direitos de terra com levantamentos de limites oficiais.</"
+"span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span style=\"font-size: 15px;\">Get precise 3D land data, elevations, and "
+"detailed site plans for your architectural or construction projects.</span>"
+msgstr ""
+"<span style=\"font-size: 15px;\">Obtenha dados precisos de terreno em 3D, "
+"elevações e plantas de situação detalhadas para seus projetos de arquitetura "
+"ou construção.</span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span style=\"font-size: 15px;\">Maximize your land's potential by dividing "
+"your property into multiple certified lots for sale or development.</span>"
+msgstr ""
+"<span style=\"font-size: 15px;\">Maximize your land's potential by dividing "
+"your property into multiple certified lots for sale or development.</span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid ""
+"<span style=\"font-size: 16px;\">\n"
+"                                                    <span "
+"class=\"text-100\">We deliver precise, reliable surveying data you can "
+"confidently build and make decisions on.\n"
+"                                                        <br/><br/>\n"
+"                                                    </span>\n"
+"                                                </span>"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid ""
+"<span style=\"font-size: 16px;\">\n"
+"                                                    We build lasting "
+"relationships through transparent communication, dependable service and "
+"consistent results.\n"
+"                                                    <br/><br/>\n"
+"                                                </span>"
+msgstr ""
+"<span style=\"font-size: 16px;\">\n"
+"                                                    Construímos relações "
+"duradouras por meio de comunicação transparente, serviço confiável e "
+"resultados consistentes.\n"
+"                                                    <br/><br/>\n"
+"                                                </span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid ""
+"<span style=\"font-size: 16px;\">\n"
+"                                                    Years of surveying "
+"experience allow us to approach every project with confidence, efficiency "
+"and technical expertise<br/><br/>\n"
+"                                                </span>"
+msgstr ""
+"<span style=\"font-size: 16px;\">\n"
+"                                                    Anos de experiência em "
+"topografia nos permitem abordar cada projeto com confiança, eficiência e "
+"especialização técnica<br/><br/>\n"
+"                                                </span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span style=\"font-size: 16px;\"><a class=\"o_translate_inline\" href=\"/our-"
+"services#boundary\">See details</a> <span class=\"oi\" data-"
+"icon=\"keyboard_arrow_right\"/></span>"
+msgstr ""
+"<span style=\"font-size: 16px;\"><a class=\"o_translate_inline\" href=\"/our-"
+"services#boundary\">Ver detalhes</a> <span class=\"oi\" data-"
+"icon=\"keyboard_arrow_right\"/></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span style=\"font-size: 16px;\"><a href=\"/our-services#landsubdivision\" "
+"class=\"o_translate_inline\">See details</a> <span class=\"oi\" data-"
+"icon=\"keyboard_arrow_right\"/></span>"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span style=\"font-size: 16px;\"><a href=\"/our-services#mapping\" "
+"class=\"o_translate_inline\">See details</a> <span class=\"oi\" data-"
+"icon=\"keyboard_arrow_right\"/></span>"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span style=\"font-size: 16px;\"><a href=\"/our-services#property\" "
+"class=\"o_translate_inline\">See details</a> <span class=\"oi\" data-"
+"icon=\"keyboard_arrow_right\"/></span>"
+msgstr ""
+"<span style=\"font-size: 16px;\"><a href=\"/our-services#property\" "
+"class=\"o_translate_inline\">Ver detalhes</a> <span class=\"oi\" data-"
+"icon=\"keyboard_arrow_right\"/></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span style=\"font-size: 16px;\"><strong>Data Reliability</strong></span>"
+msgstr ""
+"<span style=\"font-size: 16px;\"><strong>Confiabilidade de Dados</strong></"
+"span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "<span style=\"font-size: 16px;\">On-Time Project Delivery</span>"
+msgstr "<span style=\"font-size: 16px;\">Entrega de Projetos no Prazo</span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span style=\"font-size: 17px;\">“Every project is unique, but the need for "
+"precision is universal. Our goal is to bring the right expertise, technology "
+"and attention to every project.”</span>\n"
+"                                                <br/>"
+msgstr ""
+"<span style=\"font-size: 17px;\">“Cada projeto é único, mas a necessidade de "
+"precisão é universal. Nosso objetivo é trazer a expertise, a tecnologia e a "
+"atenção certas para cada projeto.”</span>\n"
+"                                                <br/>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<span style=\"font-size: 20px;\">\n"
+"                                                We deliver world-class "
+"geomatics and surveying solutions for major international projects.<br/><br/"
+">\n"
+"                                            </span>"
+msgstr ""
+"<span style=\"font-size: 20px;\">\n"
+"                                                Fornecemos soluções de "
+"geomática e topografia de classe mundial para grandes projetos "
+"internacionais.<br/><br/>\n"
+"                                            </span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"<span style=\"font-size: 23px; --text-highlight-color: var(--o-color-2); --"
+"text-highlight-width: 23px;\" class=\"o_text_highlight "
+"o_text_highlight_bold_1\"><strong>Meet Jim</strong></span><span style=\"font-"
+"size: 23px;\"><strong>, </strong>our latest aerial surveying drone "
+"technology.<br/><br/></span>"
+msgstr ""
+"<span style=\"font-size: 23px; --text-highlight-color: var(--o-color-2); --"
+"text-highlight-width: 23px;\" class=\"o_text_highlight "
+"o_text_highlight_bold_1\"><strong>Conheça Jim</strong></span><span "
+"style=\"font-size: 23px;\"><strong>, </strong>nossa mais recente tecnologia "
+"de drone de levantamento aéreo.<br/><br/></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid "<span style=\"font-size: 23px;\">Founded 25 years ago</span>"
+msgstr "<span style=\"font-size: 23px;\">Fundada há 25 anos</span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid ""
+"<span style=\"font-size: 23px;\">Three core pillars guiding the projects "
+"entrusted to us</span>"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"<span style=\"font-size: 30px;\"><strong>3D Scanning &amp; Geospatial "
+"Mapping</strong></span>"
+msgstr ""
+"<span style=\"font-size: 30px;\"><strong>Escaneamento 3D &amp; Mapeamento "
+"Geoespacial</strong></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"<span style=\"font-size: 30px;\"><strong>Boundary &amp; Land Surveying</"
+"strong></span>"
+msgstr ""
+"<span style=\"font-size: 30px;\"><strong>Levantamento Topográfico de &amp; "
+"Limites</strong></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"<span style=\"font-size: 30px;\"><strong>Construction &amp; Engineering "
+"Surveying</strong></span>"
+msgstr ""
+"<span style=\"font-size: 30px;\"><strong>Engenharia &amp; levantamentos de "
+"construção</strong></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"<span style=\"font-size: 30px;\"><strong>Land Subdivision</strong></span>"
+msgstr ""
+"<span style=\"font-size: 30px;\"><strong>Subdivisão de terras</strong></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"<span style=\"font-size: 30px;\"><strong>Property &amp; Condominium</"
+"strong></span>"
+msgstr ""
+"<span style=\"font-size: 30px;\"><strong>Condomínio &amp; propriedade</"
+"strong></span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"<span style=\"font-size: 30px;\"><strong>Topography &amp; Mapping</strong></"
+"span>"
+msgstr ""
+"<span style=\"font-size: 30px;\"><strong>Topografia &amp; Mapeamento</strong>"
+"</span>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<strong><span class=\"o_animated_text o_animate o_anim_fade_in "
+"o_anim_from_bottom\" style=\"animation-delay: 0.3s; animation-duration: "
+"0.6s; font-size: 45px;\">98%</span></strong>"
+msgstr ""
+"<strong><span class=\"o_animated_text o_animate o_anim_fade_in "
+"o_anim_from_bottom\" style=\"animation-delay: 0.3s; animation-duration: "
+"0.6s; font-size: 45px;\">98%</span></strong>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"<strong><span class=\"o_animated_text o_animate o_anim_fade_in "
+"o_anim_from_bottom\" style=\"animation-duration: 0.6s; font-size: 45px;"
+"\">500+</span></strong>"
+msgstr ""
+"<strong><span class=\"o_animated_text o_animate o_anim_fade_in "
+"o_anim_from_bottom\" style=\"animation-duration: 0.6s; font-size: 45px;\">"
+"500+</span></strong>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid "<strong>About us</strong>"
+msgstr "<strong>Sobre nós</strong>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid "<strong>Contact us</strong>"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "<strong>Let's discuss your project</strong>"
+msgstr "<strong>Let's discuss your project</strong>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "<strong>Measure the land. Defining the future.</strong>"
+msgstr "<strong>Meça a terra. Definindo o futuro.</strong>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "<strong>Precision &amp; Efficiency</strong>"
+msgstr "<strong>Precisão &amp; Eficiência</strong>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "<strong>Satisfied Partners</strong>"
+msgstr "<strong>Satisfied Partners</strong>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "<strong>Services</strong>"
+msgstr "<strong>Serviços</strong>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "<strong>Successful Projects</strong>"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid "<strong>The Story Behind Altitude</strong>"
+msgstr "<strong>A história por trás da Altitude</strong>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"A surveying total station mounted on a yellow tripod in the foreground, "
+"overlooking a green valley with a large lake and mountains in the background"
+msgstr ""
+"Uma estação total de topografia montada em um tripé amarelo em primeiro "
+"plano, com vista para um vale verde com um grande lago e montanhas ao fundo"
+
+#. module: surveyor
+#: model:website.page,name:surveyor.page_about_us
 msgid "About Us"
 msgstr "Sobre nós"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-msgid "About us"
-msgstr "Sobre nós"
-
-#. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.homepage
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
-msgid "Accurate Measurements"
-msgstr "Medições precisas"
-
-#. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-msgid "Aline Turner, CTO"
-msgstr "Aline Turner, CTO"
-
-#. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
 msgid ""
-"Aline is one of the iconic people in life who can say they love what they "
-"do. She mentors 100+ in-house developers and looks after the community of "
-"thousands of developers."
+"Accurately document buildings, units, and shared spaces with detailed "
+"property surveys. We provide precise floor plans, area calculations, and "
+"division plans for residential, commercial, and multi-unit properties."
 msgstr ""
-"Aline é uma das pessoas icônicas na vida que pode dizer que ama o que faz. "
-"Ela é mentora de mais de 100 desenvolvedores internos e cuida da comunidade "
-"de milhares de desenvolvedores."
+"Documente com precisão edifícios, unidades e espaços compartilhados com "
+"levantamentos detalhados de propriedades. Fornecemos plantas baixas "
+"precisas, cálculos de área e planos de divisão para propriedades "
+"residenciais, comerciais e multifamiliares."
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"Aerial view of a green landscape with a digital overlay showing property lot "
+"lines and a planned subdivision layout."
+msgstr ""
+"Vista aérea de uma paisagem verde com uma sobreposição digital mostrando as "
+"linhas dos lotes de propriedades e um layout de loteamento planejado."
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"Always working with<br/>\n"
+"                                            <strong>cutting-edge "
+"technologies</strong>"
+msgstr ""
+"Sempre trabalhando com<br/>\n"
+"                                            <strong>tecnologias de ponta</"
+"strong>"
 
 #. module: surveyor
 #: model:crm.stage,name:surveyor.crm_stage_5
@@ -632,14 +1536,19 @@ msgid "Archive"
 msgstr "Arquivar"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-#: model_terms:ir.ui.view,arch_db:surveyor.homepage
-msgid ""
-"At our company, we believe in putting our clients first and delivering "
-"services that meet their specific needs and requirements."
-msgstr ""
-"Em nossa empresa, acreditamos em colocar nossos clientes em primeiro lugar e "
-"oferecer serviços que atendam às suas necessidades e exigências específicas."
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "As-built documentation"
+msgstr "Documentação As-built"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "As-built surveys"
+msgstr "Levantamentos as-built"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "BIM-ready data"
+msgstr "Dados prontos para BIM"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
@@ -653,10 +1562,9 @@ msgid "Boundaries marking"
 msgstr "Marcação de limites"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.homepage
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
-msgid "Boundary Surveying"
-msgstr "Levantamento de limites"
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Boundary and property line surveys"
+msgstr "Levantamentos de divisas e linhas de propriedade"
 
 #. module: surveyor
 #: model:product.template,name:surveyor.product_product_1_product_template
@@ -664,14 +1572,53 @@ msgid "Boundary markers"
 msgstr "Marcadores de limite"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-msgid "Changing the world is possible.<br/> We’ve done it before."
-msgstr "Mudar o mundo é possível.<br/> Já fizemos isso antes."
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Boundary reconfiguration"
+msgstr "Reconfiguração de divisas"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.homepage
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Building and floor plan surveys"
+msgstr "Levantamentos de edifícios e plantas baixas"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Cadastral surveys"
+msgstr "Levantamentos cadastrais"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid ""
+"Catherine Mercer, Julien Moreau and Daniel Varga, founders of Altitude, "
+"discussing a project on a work site"
+msgstr ""
+"Catherine Mercer, Julien Moreau e Daniel Varga, fundadores da Altitude, "
+"discutindo um projeto em um canteiro de obras"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Condominium division plans"
+msgstr "Planos de divisão de condomínio"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Construction progress monitoring"
+msgstr "Monitoramento do progresso da construção"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Construction staking and setout"
+msgstr "Marcação e locação para construção"
+
+#. module: surveyor
+#: model:website.page,name:surveyor.page_contactus
 msgid "Contact Us"
 msgstr "Entre em Contato Conosco"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid "Contact details"
+msgstr ""
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
@@ -690,6 +1637,11 @@ msgstr ""
 "Faremos o possível para entrar em contato com você o mais rápido possível."
 
 #. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.footer_copyright_company_name
+msgid "Copyright ©"
+msgstr "Copyright ©"
+
+#. module: surveyor
 #: model:product.template,name:surveyor.product_template_12
 msgid "Custom services"
 msgstr "Serviços personalizados"
@@ -700,9 +1652,14 @@ msgid "Default"
 msgstr "Padrão"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-msgid "Discover more"
-msgstr "Descubra mais"
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Development surveys"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Digital twin creation"
+msgstr ""
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
@@ -715,10 +1672,53 @@ msgid "Drawer"
 msgstr "Gaveta"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.homepage
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
-msgid "Efficient Project Management"
-msgstr "Gerenciamento eficiente de projetos"
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Drone and aerial mapping"
+msgstr "Mapeamento aéreo e com drones"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid ""
+"Each founder brought a different area of expertise, from boundary and "
+"topographic surveying to mapping and land development. By joining forces, "
+"they created a practice that could bring these disciplines together under "
+"one roof."
+msgstr ""
+"Cada fundador trouxe uma área diferente de especialização, desde "
+"levantamentos cadastrais e topográficos até mapeamento e desenvolvimento de "
+"terrenos. Ao unirem forças, eles criaram uma empresa capaz de reunir essas "
+"disciplinas sob o mesmo teto."
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Earthwork and volume calculations"
+msgstr "Cálculos de terraplanagem e volume"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Easement and right-of-way surveys"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Elevation and contour mapping"
+msgstr "Mapeamento de elevação e contorno"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.template_footer_centered
+msgid "Facebook"
+msgstr "Facebook"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"Female land surveyor wearing a yellow hard hat and high-visibility gear, "
+"looking through an optical level on a tripod against a snowy mountain "
+"background."
+msgstr ""
+"Topógrafa usando capacete amarelo e equipamento de alta visibilidade, "
+"olhando através de um nível óptico em um tripé contra um fundo de montanha "
+"nevada."
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
@@ -726,19 +1726,27 @@ msgid "Field Worksheets &amp; On-Site Execution 📋"
 msgstr "Planilhas de Campo &amp; Execução no Local 📋"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
+#: model_terms:ir.ui.view,arch_db:surveyor.template_footer_centered
+msgid "Follow us"
+msgstr "Siga-nos"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
 msgid ""
-"Founder and chief visionary, Tony is the driving force behind the company. "
-"He loves\n"
-"                                                                to keep his "
-"hands full by participating in the development of the software,\n"
-"                                                                marketing, "
-"and customer experience strategies."
+"From initial measurements to final deliverables,<span class=\"text-o-"
+"color-2\"> we combine technical expertise with rigorous quality control</"
+"span>. Every project is approached with the same focus on precision, "
+"efficiency and reliable results.<br/><br/>"
 msgstr ""
-"Fundador e principal visionário, Tony é a força motriz da empresa. Ele "
-"adora\n"
-"manter as mãos ocupadas participando do desenvolvimento do software,\n"
-"marketing, e estratégias de experiência de usuários."
+"Das medições iniciais até as entregas finais,<span class=\"text-o-color-2\"> "
+"combinamos expertise técnica com controle de qualidade rigoroso</span>. Cada "
+"projeto é abordado com o mesmo foco em precisão, eficiência e resultados "
+"confiáveis.<br/><br/>"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.template_footer_centered
+msgid "Get In Touch"
+msgstr "Entre em contato"
 
 #. module: surveyor
 #. odoo-javascript
@@ -747,6 +1755,22 @@ msgid "Get on track and explore our recommendations for your Odoo usage here!"
 msgstr ""
 "Entre no caminho certo e explore nossas recomendações para o uso do Odoo "
 "aqui!"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"High-angle view of two surveyors wearing Altitude-branded hard hats and "
+"reflective safety vests, standing together while examining a digital "
+"building model displayed on a tablet screen."
+msgstr ""
+"Visão de ângulo superior de dois topógrafos usando capacetes com a marca "
+"Altitude e coletes de segurança refletivos, em pé juntos enquanto examinam "
+"um modelo digital de edifício exibido na tela de um tablet."
+
+#. module: surveyor
+#: model:website.page,name:surveyor.page_home
+msgid "Home"
+msgstr "Página inicial"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
@@ -768,22 +1792,6 @@ msgid "Invoicing &amp; Financial Follow-up 💳"
 msgstr "Faturamento &amp; Acompanhamento Financeiro 💳"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-msgid "Iris Joe, CFO"
-msgstr "Cláudia Oliveira, CFO"
-
-#. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-msgid ""
-"Iris, with her international experience, helps us easily understand the "
-"numbers and improves them. She is determined to drive success and delivers "
-"her professional acumen to bring the company to the next level."
-msgstr ""
-"Cláudia, com sua experiência internacional, nos ajuda a entender facilmente "
-"os números e melhorá-los. Ela está determinada a impulsionar o sucesso e "
-"oferece sua perspicácia profissional para levar a empresa ao próximo nível."
-
-#. module: surveyor
 #: model:product.template,name:surveyor.product_product_2_product_template
 #: model:sale.order.template,name:surveyor.sale_order_template_1
 #: model:sale.order.template.line,name:surveyor.sale_order_template_line_8
@@ -797,10 +1805,63 @@ msgid "Lead Generation &amp; CRM 🚙"
 msgstr "Geração de Leads &amp; CRM 🚙"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-#: model_terms:ir.ui.view,arch_db:surveyor.homepage
-msgid "Learn more"
-msgstr "Saiba mais"
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Legal survey documentation"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.template_footer_centered
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.template_footer_centered
+msgid "Logo of Altitude"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid "Logo of Bâtir Construction"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid "Logo of DreamKey Realty"
+msgstr "Logotipo da DreamKey Realty"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid "Logo of Odoo"
+msgstr "Logotipo da Odoo"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid "Logo of Real Estate Heritage Advisory"
+msgstr "Logo da Real Estate Heritage Advisory"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid "Logo of Urbanis"
+msgstr "Logotipo da Urbanis"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid "Logo of WonderWorld Adventures"
+msgstr "Logotipo da WonderWorld Adventures"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Lot creation and layout"
+msgstr ""
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"Low-angle view of a multi-story modern residential apartment building with "
+"balconies under a clear blue sky"
+msgstr ""
+"Vista de ângulo inferior de um prédio residencial moderno de vários andares "
+"com varandas sob um céu azul limpo"
 
 #. module: surveyor
 #: model:product.template,name:surveyor.product_product_4_product_template
@@ -813,20 +1874,15 @@ msgid "Map printing"
 msgstr "Impressão de mapas"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-msgid "Mich Stark, COO"
-msgstr "Mich Stark, COO"
-
-#. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
 msgid ""
-"Mich loves taking on challenges. With his multi-year experience as "
-"Commercial Director in the software industry, Mich has helped the company to "
-"get where it is today. Mich is among the best minds."
+"More than a name, it became the philosophy behind the company: "
+"<strong>precise data, clear understanding, and a higher perspective on every "
+"project.</strong>"
 msgstr ""
-"Mich adora enfrentar desafios. Com sua experiência de vários anos como "
-"Diretor Comercial na indústria de software, Mich ajudou a empresa a chegar "
-"onde está hoje. Mich está entre as melhores mentes."
+"Mais do que um nome, tornou-se a filosofia por trás da empresa: <strong>"
+"precise data, clear understanding, and a higher perspective on every "
+"project.</strong>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
@@ -834,14 +1890,14 @@ msgid "My Company"
 msgstr "Minha empresa"
 
 #. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.template_footer_centered
+msgid "Navigation"
+msgstr "Navegação"
+
+#. module: surveyor
 #: model:project.task.type,name:surveyor.project_task_type_8
 msgid "New"
 msgstr "Novo"
-
-#. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
-msgid "Next"
-msgstr "Próximo"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
@@ -857,34 +1913,9 @@ msgid "Ongoing"
 msgstr "Em andamento"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
-msgid "Our References"
-msgstr "Nossas referências"
-
-#. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-#: model_terms:ir.ui.view,arch_db:surveyor.homepage
-msgid ""
-"Our land surveying services are designed to provide you with accurate and "
-"reliable results that you can trust. From boundary surveys to topographic "
-"mapping, we have the expertise to deliver top-quality services."
-msgstr ""
-"Nossos serviços de levantamento topográfico são projetados para fornecer "
-"resultados precisos e confiáveis nos quais você pode confiar. De "
-"levantamentos de limites a mapeamento topográfico, temos a experiência "
-"necessária para oferecer serviços de alta qualidade."
-
-#. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.homepage
-msgid ""
-"Our team of experienced surveyor professionals provides accurate and "
-"reliable land surveying services for all your needs. From mapping to "
-"boundary surveys, we have the expertise to deliver top-quality results."
-msgstr ""
-"Nossa equipe de profissionais experientes em levantamento topográfico "
-"oferece serviços de levantamento topográfico precisos e confiáveis para "
-"todas as suas necessidades. De mapeamento a levantamentos de limites, temos "
-"o conhecimento necessário para fornecer resultados de alta qualidade."
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Parcel and lot subdivision"
+msgstr "Subdivisão de lotes e glebas"
 
 #. module: surveyor
 #: model:product.template,name:surveyor.product_product_6_product_template
@@ -905,25 +1936,46 @@ msgid "Planning permission"
 msgstr "Permissão de planejamento"
 
 #. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Point cloud generation"
+msgstr "Geração de nuvem de pontos"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "Portrait of Alice Dupont, surveyor engineer at Altitude"
+msgstr "Retrato de Alice Dupont, engenheira agrimensora na Altitude"
+
+#. module: surveyor
 #: model:product.template,name:surveyor.product_template_10
 msgid "Precision leveling"
 msgstr "Nivelamento de precisão"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
-msgid "Previous"
-msgstr "Anterior"
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "Progress bar"
+msgstr "Barra de progresso"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Property boundary and site surveys"
+msgstr "Levantamentos de divisas de propriedades e do local"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Property corner identification"
+msgstr "Identificação de marcos de propriedade"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "Reach our experts and start talking about it!"
+msgstr ""
+"Entre em contato com nossos especialistas e comece a conversar sobre isso!"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
 msgid "Reach us"
 msgstr "Entre em contato"
-
-#. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.homepage
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
-msgid "Read more"
-msgstr "Leia mais"
 
 #. module: surveyor
 #: model:project.task.type,name:surveyor.project_task_type_11
@@ -943,16 +1995,38 @@ msgid "Sales Orders &amp; Automated Task Creation 📜"
 msgstr "Pedidos de Venda &amp; Criação Automatizada de Tarefas 📜"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-msgid "Section Subtitle"
-msgstr "Subtítulo da seção"
+#: model_terms:ir.ui.view,arch_db:surveyor.option_footer_scrolltop
+msgid "Scroll To Top"
+msgstr "Rolagem para o topo"
 
 #. module: surveyor
-#: model:website.menu,name:surveyor.website_menu_10
-#: model:website.page,name:surveyor.website_page_6
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
+#: model:website.page,name:surveyor.page_services
 msgid "Services"
 msgstr "Serviços"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Site and base plans"
+msgstr "Plantas de situação e base"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Site control and level surveys"
+msgstr "Controle de obra e levantamentos de nivelamento"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"Site survey<br/>\n"
+"                                            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\n"
+"                                            <span class=\"o_small-fs\">We "
+"carry out the survey on site.</span>"
+msgstr ""
+"Levantamento no local<br/>\n"
+"                                            "
+"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\n"
+"                                            <span class=\"o_small-fs\">"
+"Realizamos o levantamento no local.</span>"
 
 #. module: surveyor
 #: model:ir.actions.server,name:surveyor.soft_dependency_server_action
@@ -960,14 +2034,23 @@ msgid "Soft dependency"
 msgstr "Dependência suave"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-msgid "Start with the customer – find out what they want and give it to them."
-msgstr "Comece com o cliente – descubra o que eles querem e entregue a eles."
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Subdivision plans and documentation"
+msgstr "Planes e documentação de loteamento"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.contactus
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
 msgid "Submit"
 msgstr "Enviar"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"Support your construction projects with accurate measurements and reliable "
+"site control. From initial layout to final verification, our surveying "
+"services help ensure precision throughout every stage of your project."
+msgstr ""
 
 #. module: surveyor
 #: model:ir.module.module,shortdesc:base.module_surveyor
@@ -976,16 +2059,19 @@ msgid "Surveying & Mapping"
 msgstr "Levantamento e mapeamento"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-#: model_terms:ir.ui.view,arch_db:surveyor.homepage
-msgid "Surveying and Mapping Services"
-msgstr "Serviços de levantamento e mapeamento"
-
-#. module: surveyor
 #: model:planning.role,name:surveyor.planning_role_3
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
 msgid "Surveyor"
 msgstr "Responsável pelo levantamento"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"Surveyor engineer and drone operator wearing a high-visibility safety vest, "
+"holding a gray drone toward the camera."
+msgstr ""
+"Engenheiro agrimensor e operador de drone usando um colete de segurança de "
+"alta visibilidade, segurando um drone cinza em direção à câmera."
 
 #. module: surveyor
 #: model:project.project,label_tasks:surveyor.project_project_1
@@ -1069,15 +2155,36 @@ msgstr ""
 "durante o trânsito e no escritório durante o pós-processamento."
 
 #. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid ""
+"They chose the name <strong>Altitude because elevation is one of the "
+"fundamental dimensions of surveying</strong>, but also because it reflected "
+"their ambition. To them, altitude means <strong>taking a broader view, "
+"understanding the land from every level, and seeing beyond the measurements "
+"themselves.</strong>"
+msgstr ""
+"Eles escolheram o nome <strong>Altitude porque a elevação é uma das "
+"dimensões fundamentais da agrimensura</strong>, mas também porque refletia "
+"sua ambição. Para eles, altitude significa <strong>ter uma visão mais ampla, "
+"compreender o terreno de todos os níveis e enxergar além das próprias "
+"medições.</strong>"
+
+#. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
 #, fuzzy
 msgid "Timesheets &amp; Expense Tracking ⏱️"
 msgstr "Planilhas de Horas &amp; Acompanhamento de Despesas ⏱️"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-msgid "Tony Fred, CEO"
-msgstr "Antônio Frederico, CEO"
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid ""
+"Today, <strong>Altitude combines decades of collective experience</strong> "
+"with modern surveying and mapping technologies to help clients understand, "
+"develop and shape the land with confidence."
+msgstr ""
+"Hoje, a <strong>Altitude combina décadas de experiência coletiva</strong> "
+"com modernas tecnologias de levantamento e mapeamento para ajudar os "
+"clientes a entender, desenvolver e moldar o terreno com confiança."
 
 #. module: surveyor
 #: model:planning.role,name:surveyor.planning_role_1
@@ -1085,10 +2192,50 @@ msgid "Topographer"
 msgstr "Topógrafo"
 
 #. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "Topographic Mapping • 3D Laser Scanning • International Projects •"
+msgstr ""
+"Mapeamento Topográfico • Escaneamento a Laser 3D • Projetos Internacionais •"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Topographic surveys"
+msgstr "Levantamentos topográficos"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_about_us
+msgid ""
+"Trusted by<br/>\n"
+"                                            <span class=\"text-o-"
+"color-2\"><strong>our Partners</strong></span>"
+msgstr ""
+"Com a confiança dos<br/>\n"
+"                                            <span class=\"text-o-color-2\">"
+"<strong>nossos parceiros</strong></span>"
+
+#. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
 #, fuzzy
 msgid "Try the <b>Inventory</b> app to manage inventory."
-msgstr "Experimente o aplicativo <b>Inventário</b> para gerenciar o inventário."
+msgstr ""
+"Experimente o aplicativo <b>Inventário</b> para gerenciar o inventário."
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid ""
+"Turn larger properties into clearly defined, development-ready lots. Our "
+"subdivision surveys provide the precise measurements and documentation "
+"needed to support property development, planning, and land sales."
+msgstr ""
+"Transforme propriedades maiores em lotes claramente definidos e prontos para "
+"desenvolvimento. Nossos levantamentos de subdivisão fornecem as medições "
+"precisas e a documentação necessária para apoiar o desenvolvimento "
+"imobiliário, o planejamento e as vendas de terrenos."
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_services
+msgid "Unit and common-area mapping"
+msgstr "Mapeamento de unidades e áreas comuns"
 
 #. module: surveyor
 #: model:project.task.type,name:surveyor.project_task_type_12
@@ -1113,9 +2260,24 @@ msgid "Use <b>Sign</b> to send contracts"
 msgstr "Use a <b>Assinatura de Documentos</b> para enviar contratos"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
-msgid "We are in good company."
-msgstr "Estamos em boa companhia."
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_contactus
+msgid ""
+"We get in touch<br/>\n"
+"                                            &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\n"
+"                                            <span class=\"o_small-fs\">We "
+"get back </span><span class=\"o_small-fs o_text_highlight "
+"o_text_highlight_bold\" style=\"--text-highlight-color: #CDFB2F; --text-"
+"highlight-width: 10px;\">within 5 business days</span><span class=\"o_small-"
+"fs\">.</span>"
+msgstr ""
+"Entramos em contato<br/>\n"
+"                                            "
+"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\n"
+"                                            <span class=\"o_small-fs\">"
+"Retornamos </span><span class=\"o_small-fs o_text_highlight "
+"o_text_highlight_bold\" style=\"--text-highlight-color: #CDFB2F; --text-"
+"highlight-width: 10px;\">em até 5 dias úteis</span><span class=\"o_small-"
+"fs\">.</span>"
 
 #. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
@@ -1146,24 +2308,6 @@ msgstr ""
 "Quer conversar sobre sua configuração do Odoo ou ir explorar mais recursos?"
 
 #. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.ir_ui_view_1918
-msgid ""
-"Write a quote here from one of your customers. Quotes are a great way to "
-"build confidence in your products or services."
-msgstr ""
-"Escreva aqui uma referência de um de seus clientes. As referências são uma "
-"ótima maneira de criar confiança em seus produtos ou serviços."
-
-#. module: surveyor
-#: model_terms:ir.ui.view,arch_db:surveyor.about-us
-msgid ""
-"Write one or two paragraphs describing your product or services. To be "
-"successful your content needs to be useful to your readers."
-msgstr ""
-"Escreva um ou dois parágrafos descrevendo seu produto ou serviço. Para ter "
-"sucesso, seu conteúdo precisa ser útil para seus leitores."
-
-#. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
 #, fuzzy
 msgid ""
@@ -1181,10 +2325,229 @@ msgid "if needed."
 msgstr "se necessário."
 
 #. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"man in black and yellow jacket wearing red helmet holding black and white "
+"stick"
+msgstr ""
+"homem de jaqueta preta e amarela usando capacete vermelho segurando bastão "
+"preto e branco"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid ""
+"man in gray and orange jacket holding green and black dslr camera during "
+"daytime"
+msgstr ""
+"homem de jaqueta cinza e laranja segurando câmera DSLR verde e preta durante "
+"o dia"
+
+#. module: surveyor
 #: model_terms:ir.ui.view,arch_db:surveyor.welcome_article_body
 #, fuzzy
 msgid "odoo.com/trial"
 msgstr "Odoo.com/trial"
+
+#. module: surveyor
+#: model_terms:ir.ui.view,arch_db:surveyor.view_page_home
+msgid "seven construction workers standing on white field"
+msgstr "sete trabalhadores da construção civil em pé em um campo branco"
+
+#~ msgid "<b>ABOUT US</b>"
+#~ msgstr "<b>SOBRE NÓS</b>"
+
+#~ msgid ""
+#~ "<font style=\"font-size: 62px;\">\n"
+#~ "                                        <b>— Surveying Solutions for You —"
+#~ "</b>\n"
+#~ "                                    </font>"
+#~ msgstr ""
+#~ "<font style=\"font-size: 62px;\">\n"
+#~ "                                        <b>— Levantando soluções para "
+#~ "você —</b>\n"
+#~ "                                    </font>"
+
+#~ msgid ""
+#~ "<span class=\"carousel-control-next-icon\"/>\n"
+#~ "                                        <span class=\"visually-"
+#~ "hidden\">Next</span>"
+#~ msgstr ""
+#~ "<span class=\"carousel-control-next-icon\"/>\n"
+#~ "                                        <span class=\"visually-"
+#~ "hidden\">Próximo</span>"
+
+#~ msgid ""
+#~ "<span class=\"carousel-control-prev-icon\"/>\n"
+#~ "                                        <span class=\"visually-"
+#~ "hidden\">Previous</span>"
+#~ msgstr ""
+#~ "<span class=\"carousel-control-prev-icon\"/>\n"
+#~ "                                        <span class=\"visually-"
+#~ "hidden\">Anterior</span>"
+
+#~ msgid ""
+#~ "<span class=\"s_blockquote_author\"><b>Iris DOE</b> • CEO of MyCompany</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span class=\"s_blockquote_author\"><b>Cláudia OLIVEIRA</b> • CEO da "
+#~ "empresa</span>"
+
+#~ msgid ""
+#~ "<span class=\"s_blockquote_author\"><b>Jane DOE</b> • CEO of MyCompany</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span class=\"s_blockquote_author\"><b>Jane DOE</b> • CEO da Empresa</"
+#~ "span>"
+
+#~ msgid ""
+#~ "<span class=\"s_blockquote_author\"><b>John DOE</b> • CEO of MyCompany</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span class=\"s_blockquote_author\"><b>John DOE</b> • CEO da Empresa</"
+#~ "span>"
+
+#~ msgid "About us"
+#~ msgstr "Sobre nós"
+
+#~ msgid "Accurate Measurements"
+#~ msgstr "Medições precisas"
+
+#~ msgid "Aline Turner, CTO"
+#~ msgstr "Aline Turner, CTO"
+
+#~ msgid ""
+#~ "Aline is one of the iconic people in life who can say they love what they "
+#~ "do. She mentors 100+ in-house developers and looks after the community of "
+#~ "thousands of developers."
+#~ msgstr ""
+#~ "Aline é uma das pessoas icônicas na vida que pode dizer que ama o que "
+#~ "faz. Ela é mentora de mais de 100 desenvolvedores internos e cuida da "
+#~ "comunidade de milhares de desenvolvedores."
+
+#~ msgid ""
+#~ "At our company, we believe in putting our clients first and delivering "
+#~ "services that meet their specific needs and requirements."
+#~ msgstr ""
+#~ "Em nossa empresa, acreditamos em colocar nossos clientes em primeiro "
+#~ "lugar e oferecer serviços que atendam às suas necessidades e exigências "
+#~ "específicas."
+
+#~ msgid "Boundary Surveying"
+#~ msgstr "Levantamento de limites"
+
+#~ msgid "Changing the world is possible.<br/> We’ve done it before."
+#~ msgstr "Mudar o mundo é possível.<br/> Já fizemos isso antes."
+
+#~ msgid "Discover more"
+#~ msgstr "Descubra mais"
+
+#~ msgid "Efficient Project Management"
+#~ msgstr "Gerenciamento eficiente de projetos"
+
+#~ msgid ""
+#~ "Founder and chief visionary, Tony is the driving force behind the "
+#~ "company. He loves\n"
+#~ "                                                                to keep "
+#~ "his hands full by participating in the development of the software,\n"
+#~ "                                                                marketing, "
+#~ "and customer experience strategies."
+#~ msgstr ""
+#~ "Fundador e principal visionário, Tony é a força motriz da empresa. Ele "
+#~ "adora\n"
+#~ "manter as mãos ocupadas participando do desenvolvimento do software,\n"
+#~ "marketing, e estratégias de experiência de usuários."
+
+#~ msgid "Iris Joe, CFO"
+#~ msgstr "Cláudia Oliveira, CFO"
+
+#~ msgid ""
+#~ "Iris, with her international experience, helps us easily understand the "
+#~ "numbers and improves them. She is determined to drive success and "
+#~ "delivers her professional acumen to bring the company to the next level."
+#~ msgstr ""
+#~ "Cláudia, com sua experiência internacional, nos ajuda a entender "
+#~ "facilmente os números e melhorá-los. Ela está determinada a impulsionar o "
+#~ "sucesso e oferece sua perspicácia profissional para levar a empresa ao "
+#~ "próximo nível."
+
+#~ msgid "Learn more"
+#~ msgstr "Saiba mais"
+
+#~ msgid "Mich Stark, COO"
+#~ msgstr "Mich Stark, COO"
+
+#~ msgid ""
+#~ "Mich loves taking on challenges. With his multi-year experience as "
+#~ "Commercial Director in the software industry, Mich has helped the company "
+#~ "to get where it is today. Mich is among the best minds."
+#~ msgstr ""
+#~ "Mich adora enfrentar desafios. Com sua experiência de vários anos como "
+#~ "Diretor Comercial na indústria de software, Mich ajudou a empresa a "
+#~ "chegar onde está hoje. Mich está entre as melhores mentes."
+
+#~ msgid "Next"
+#~ msgstr "Próximo"
+
+#~ msgid "Our References"
+#~ msgstr "Nossas referências"
+
+#~ msgid ""
+#~ "Our land surveying services are designed to provide you with accurate and "
+#~ "reliable results that you can trust. From boundary surveys to topographic "
+#~ "mapping, we have the expertise to deliver top-quality services."
+#~ msgstr ""
+#~ "Nossos serviços de levantamento topográfico são projetados para fornecer "
+#~ "resultados precisos e confiáveis nos quais você pode confiar. De "
+#~ "levantamentos de limites a mapeamento topográfico, temos a experiência "
+#~ "necessária para oferecer serviços de alta qualidade."
+
+#~ msgid ""
+#~ "Our team of experienced surveyor professionals provides accurate and "
+#~ "reliable land surveying services for all your needs. From mapping to "
+#~ "boundary surveys, we have the expertise to deliver top-quality results."
+#~ msgstr ""
+#~ "Nossa equipe de profissionais experientes em levantamento topográfico "
+#~ "oferece serviços de levantamento topográfico precisos e confiáveis para "
+#~ "todas as suas necessidades. De mapeamento a levantamentos de limites, "
+#~ "temos o conhecimento necessário para fornecer resultados de alta "
+#~ "qualidade."
+
+#~ msgid "Previous"
+#~ msgstr "Anterior"
+
+#~ msgid "Read more"
+#~ msgstr "Leia mais"
+
+#~ msgid "Section Subtitle"
+#~ msgstr "Subtítulo da seção"
+
+#~ msgid ""
+#~ "Start with the customer – find out what they want and give it to them."
+#~ msgstr ""
+#~ "Comece com o cliente – descubra o que eles querem e entregue a eles."
+
+#~ msgid "Surveying and Mapping Services"
+#~ msgstr "Serviços de levantamento e mapeamento"
+
+#~ msgid "Tony Fred, CEO"
+#~ msgstr "Antônio Frederico, CEO"
+
+#~ msgid "We are in good company."
+#~ msgstr "Estamos em boa companhia."
+
+#~ msgid ""
+#~ "Write a quote here from one of your customers. Quotes are a great way to "
+#~ "build confidence in your products or services."
+#~ msgstr ""
+#~ "Escreva aqui uma referência de um de seus clientes. As referências são "
+#~ "uma ótima maneira de criar confiança em seus produtos ou serviços."
+
+#~ msgid ""
+#~ "Write one or two paragraphs describing your product or services. To be "
+#~ "successful your content needs to be useful to your readers."
+#~ msgstr ""
+#~ "Escreva um ou dois parágrafos descrevendo seu produto ou serviço. Para "
+#~ "ter sucesso, seu conteúdo precisa ser útil para seus leitores."
 
 #~ msgid "(From a phone call)"
 #~ msgstr "(De uma ligação telefônica)"

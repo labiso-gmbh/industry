@@ -4,21 +4,22 @@
 #
 # "Tiffany Chang (tic)" <tic@odoo.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Nusara Boonma <nuboo@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 17:40+0000\n"
-"PO-Revision-Date: 2025-11-13 07:47+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Thai <https://translate.odoo.com/projects/odoo-19/"
+"POT-Creation-Date: 2026-11-20 17:35+0000\n"
+"PO-Revision-Date: 2026-11-09 08:33+0000\n"
+"Last-Translator: Nusara Boonma <nuboo@odoo.com>\n"
+"Language-Team: Thai <https://translate.odoo.com/projects/odoo-20/"
 "accounting_firm/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -26,6 +27,8 @@ msgid ""
 "<b>Accounting App</b>: Streamline your billing cycle and manage the firm's "
 "own financials with robust invoicing tools."
 msgstr ""
+"<b>แอปบัญชี</b>: "
+"ปรับปรุงกระบวนการเรียกเก็บเงินของคุณให้เป็นระบบและจัดการการเงินของบริษัทด้วยเครื่องมือออกใบแจ้งหนี้ที่ทรงประสิทธิภาพ"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -33,6 +36,8 @@ msgid ""
 "<b>Contacts App</b>: Centralize all client data and maintain a clean, "
 "organized directory of customers and contacts."
 msgstr ""
+"<b>แอปติดต่อ</b>: รวบรวมข้อมูลลูกค้าทั้งหมดไว้ในที่เดียว "
+"และดูแลรักษาฐานข้อมูลลูกค้าและรายชื่อผู้ติดต่อให้เป็นระเบียบเรียบร้อย"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -40,6 +45,8 @@ msgid ""
 "<b>Databases App</b>: Access and interact with your clients' Odoo databases "
 "instantly from a single dashboard."
 msgstr ""
+"<b>แอปฐานข้อมูล</b>: เข้าถึงและโต้ตอบกับฐานข้อมูล Odoo "
+"ของลูกค้าของคุณได้ทันทีจากแดชบอร์ดเดียว"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -47,6 +54,8 @@ msgid ""
 "<b>Documents App</b>: Automate the request, collection, and management of "
 "client files for a paperless office."
 msgstr ""
+"<b>แอปเอกสาร</b>: ระบบอัตโนมัติสำหรับการขอ การรวบรวม และการจัดการไฟล์เอกสารลูกค้า "
+"เพื่อมุ่งสู่การเป็นสำนักงานไร้กระดาษ"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -61,6 +70,8 @@ msgid ""
 "<b>Project App</b>: Organize client files, track tasks, and manage your "
 "team's workload to meet every deadline."
 msgstr ""
+"<b>แอปโปรเจกต์</b>: จัดระเบียบไฟล์ลูกค้า ติดตามความคืบหน้าของงาน "
+"จัดการปริมาณงานของทีมให้ทันวันที่กำหนด"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -68,6 +79,8 @@ msgid ""
 "<b>Sign App</b>: Accelerate approvals and agreements by capturing secure "
 "electronic document signatures instantly."
 msgstr ""
+"<b>แอปการเซ็น</b>: "
+"เร่งกระบวนการอนุมัติและลงนามโดยเก็บรวบรวมลายมือชื่ออิเล็กทรอนิกส์ที่ปลอดภัยได้ทันที"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -75,6 +88,8 @@ msgid ""
 "<b>Timesheets App</b>: Track billable hours with precision and analyze your "
 "team's efforts for better profitability."
 msgstr ""
+"<b>แอประบบบันทึกเวลา</b>: "
+"ติดตามชั่วโมงที่สามารถเรียกเก็บเงินได้อย่างแม่นยำและวิเคราะห์ความพยายามของทีมเพื่อเพิ่มผลกำไร"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -84,13 +99,6 @@ msgid ""
 msgstr ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Info\" aria-label=\"Banner Info\">💡</i>"
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
-"label=\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
-msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -107,6 +115,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Success\" aria-label=\"Banner Success\">🥳</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Success\" aria-label=\"Banner Success\">🥳</i>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -114,6 +124,8 @@ msgid ""
 "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
 "label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 msgstr ""
+"<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+"label=\"Banner Warning\" aria-label=\"Banner Warning\">⚠️</i>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -123,6 +135,10 @@ msgid ""
 "            </span>\n"
 "            <br/>"
 msgstr ""
+"<span class=\"display-4-fs\">\n"
+"                <strong>บริษัทบัญชี</strong>\n"
+"            </span>\n"
+"            <br/>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -132,42 +148,42 @@ msgstr "<span class=\"h1-fs\">พื้นฐาน</span>"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<span class=\"h1-fs\">Do You Want to Go Further?</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">คุณต้องการเรียนรู้เพิ่มเติมหรือไม่?</span>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<span class=\"h1-fs\">Final word</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">คำปิดท้าย</span>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<span class=\"h1-fs\">Use case</span>"
-msgstr ""
+msgstr "<span class=\"h1-fs\">กรณีการใช้งาน</span>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Connecting your customer database</strong>"
-msgstr ""
+msgstr "<strong>การเชื่อมต่อฐานข้อมูลลูกค้าของคุณ</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Customer identity management</strong>"
-msgstr ""
+msgstr "<strong>การจัดการข้อมูลประจำตัวลูกค้า</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>From a project</strong>"
-msgstr ""
+msgstr "<strong>จากโปรเจกต์</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>From a task</strong>"
-msgstr ""
+msgstr "<strong>จากงาน</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>From the Timesheets App</strong>"
-msgstr ""
+msgstr "<strong>จากแอประบบบันทึกเวลา</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -181,22 +197,22 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Leveraging Services &amp; Materials</strong>"
-msgstr ""
+msgstr "<strong>การใช้ประโยชน์จากบริการและวัสดุ</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Leveraging the activity tracker</strong>"
-msgstr ""
+msgstr "<strong>การใช้ประโยชน์จากเครื่องมือติดตามกิจกรรม</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Requesting a document</strong>"
-msgstr ""
+msgstr "<strong>การขอเอกสาร</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "<strong>Setup the project</strong>"
-msgstr ""
+msgstr "<strong>ตั้งค่าโปรเจกต์</strong>"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -204,6 +220,8 @@ msgid ""
 "A crucial part of business is as well making sure it is profitable. Odoo "
 "helps you following up project profitability straight from your projects."
 msgstr ""
+"ส่วนสำคัญของธุรกิจคือการตรวจสอบให้แน่ใจว่าธุรกิจนั้นมีผลกำไร และทาง Odoo "
+"ช่วยให้คุณติดตามความคุ้มค่าของโปรเจกต์ได้โดยตรงจากโปรเจกต์ของคุณ"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -219,51 +237,46 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "AML"
-msgstr ""
+msgstr "AML"
 
 #. module: accounting_firm
 #: model:ir.model,name:accounting_firm.x_aml_risk_model
 msgid "AML Risk"
-msgstr ""
+msgstr "ความเสี่ยงด้าน AML"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_7_product_template
 msgid "Accounting - Monthly VAT (Pack)"
-msgstr ""
+msgstr "บัญชี - VAT รายเดือน (แพ็กเกจ)"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_12_product_template
 msgid "Accounting - Monthly VAT (Timesheets)"
-msgstr ""
+msgstr "บัญชี - VAT รายเดือน (ใบบันทึกเวลาทำงาน)"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_10_product_template
 msgid "Accounting - Monthly non-taxable (Pack)"
-msgstr ""
+msgstr "บัญชี - รายเดือนที่ไม่ต้องเสียภาษี (แพ็กเกจ)"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_13_product_template
 msgid "Accounting - Monthly non-taxable (Timesheets)"
-msgstr ""
+msgstr "ระบบบัญชี - รายเดือนที่ไม่ต้องเสียภาษี (ระบบบันทึกเวลา)"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_5_product_template
 msgid "Accounting - Quarterly VAT (Pack)"
-msgstr ""
+msgstr "ระบบบัญชี - VAT รายไตรมาส (แพ็กเกจ)"
 
 #. module: accounting_firm
 #: model:product.template,name:accounting_firm.product_product_14_product_template
 msgid "Accounting - Quarterly VAT (Timesheets)"
-msgstr ""
+msgstr "ระบบบัญชี - VAT รายไตรมาส (ระบบบันทึกเวลา)"
 
 #. module: accounting_firm
 #: model:ir.module.module,shortdesc:base.module_accounting_firm
 msgid "Accounting Firm"
-msgstr ""
-
-#. module: accounting_firm
-#: model:base.automation,name:accounting_firm.base_automation_on_id_scan_changed
-msgid "Accounting Firm: On ID Scan Changed"
 msgstr ""
 
 #. module: accounting_firm
@@ -320,15 +333,6 @@ msgstr ""
 msgid ""
 "An activity has been created for you to follow up on this.<br/>\n"
 "    It self closes once your contact submits its UBO list."
-msgstr ""
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"An automation runs daily to request expiring and expired identity documents "
-"to your contacts.\n"
-"                    Make sure to check the open document request from "
-"Documents App."
 msgstr ""
 
 #. module: accounting_firm
@@ -496,8 +500,13 @@ msgstr "เสร็จสิ้น"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid "Easily request identity document and follow up on expired ones."
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
-"Easily request identity document from the gear icon (⚙️) in the bread crumb."
+"Easily request identity document from the gear icon (⚙️) near the bread crumb."
 msgstr ""
 
 #. module: accounting_firm
@@ -522,8 +531,9 @@ msgid "Exempted"
 msgstr ""
 
 #. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.accounting_firm_view_res_partner_search
-msgid "Expired IDs"
+#: model:ir.model.fields,field_description:accounting_firm.x_id_expiration_date_field_document_document
+#: model_terms:ir.ui.view,arch_db:accounting_firm.documents_view_list_main
+msgid "Expiration Date"
 msgstr ""
 
 #. module: accounting_firm
@@ -537,6 +547,8 @@ msgid ""
 "Explore the Dashboard App to follow up overall work, progress and "
 "profitability cross projects at will."
 msgstr ""
+"สำรวจแอปแดชบอร์ดเพื่อติดตามงานโดยรวม ความคืบหน้า "
+"และความสามารถในการทำกำไรข้ามโปรเจกต์ได้ตามต้องการ"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_closing_month_field_selection_2
@@ -547,7 +559,7 @@ msgstr "กุมภาพันธ์"
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Fine tune the email if needed and hit the send button."
-msgstr ""
+msgstr "ปรับแต่งอีเมลหากจำเป็น แล้วกดปุ่มส่ง"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -555,6 +567,8 @@ msgid ""
 "For such typical request, you can leverage email templates for ask recurrent "
 "questions and save time exposing your services!"
 msgstr ""
+"สำหรับคำขอทั่วไปเช่นนี้ คุณสามารถใช้ประโยชน์จากเทมเพลตอีเมลเพื่อถามคำถามที่พบบ่อย "
+"และประหยัดเวลาในการนำเสนอบริการของคุณ!"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -568,31 +582,31 @@ msgstr ""
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_vat_declaration_recurrence_field_selection_franchise
 msgid "Franchise"
-msgstr ""
+msgstr "แฟรนไชส์"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
 msgid "French Business Directory"
-msgstr ""
+msgstr "สมุดทะเบียนนิติบุคคลฝรั่งเศส"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "From any chatter, you can add documents as attachments."
-msgstr ""
+msgstr "คุณสามารถเพิ่มเอกสารเป็นไฟล์แนบได้จากทุกช่องแชท"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "Go to the project documents with the shortcuts to edit the folder "
 "architecture at your convenience."
-msgstr ""
+msgstr "ไปที่เอกสารโปรเจกต์ด้วยทางลัดเพื่อแก้ไขโครงสร้างโฟลเดอร์ตามความสะดวกของคุณ"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "Having access in record time to all activities and metrics from your "
 "customer databases is key."
-msgstr ""
+msgstr "การเข้าถึงกิจกรรมและตัวชี้วัดทั้งหมดจากฐานข้อมูลลูกค้าของคุณได้อย่างรวดเร็วทันใจเป็นกุญแจสำคัญ"
 
 #. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_high
@@ -605,22 +619,22 @@ msgid ""
 "Hit the New button, select the order it applies to, the product you worked "
 "on, adjust the quantity, leave a note and save the line."
 msgstr ""
+"คลิกปุ่ม \"ใหม่\" เลือกคำสั่งซื้อที่เกี่ยวข้อง เลือกสินค้าที่คุณดำเนินการ ปรับจำนวน ระบุหมายเหตุ "
+"และบันทึกรายการ"
 
 #. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
-msgid "ID"
-msgstr "ไอดี"
-
-#. module: accounting_firm
-#: model:ir.model.fields,field_description:accounting_firm.x_id_expiration_date_field_res_partner
-msgid "ID Expiration Date"
+#: model:documents.tag,name:accounting_firm.documents_tag_1
+msgid "Identity Document"
 msgstr ""
 
 #. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"Identity management is a must do activity in your business and to support "
-"you with that, the contacts encompass all the necessary."
+#: model:ir.model.fields,field_description:accounting_firm.x_identity_document_expiration_field_res_partner
+msgid "Identity Document Expiration"
+msgstr ""
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.accounting_firm_view_res_partner_search
+msgid "Identity Document Expiration Date"
 msgstr ""
 
 #. module: accounting_firm
@@ -637,6 +651,9 @@ msgid ""
 "customer, you can do so from the Timesheets App settings, Billing section "
 "and adjusting the Invoicing Policy."
 msgstr ""
+"หากคุณต้องการเพิ่มขั้นตอนการอนุมัติใบบันทึกเวลาก่อนการเรียกเก็บเงินจากลูกค้า "
+"คุณสามารถดำเนินการได้จากการตั้งค่าในแอปใบบันทึกเวลา "
+"ในส่วนการเรียกเก็บเงินและปรับนโยบายการออกใบแจ้งหนี้"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -659,6 +676,7 @@ msgid ""
 "additional required inputs, including API credentials provided by your "
 "customer."
 msgstr ""
+"ในแท็บฐานข้อมูล ตั้งค่าโฮสติ้งให้ถูกและกรอกข้อมูลที่จำเป็น รวมถึงข้อมูลรับรองสิทธิ์ API ที่มาจากลูกค้า"
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -720,11 +738,6 @@ msgid ""
 msgstr ""
 
 #. module: accounting_firm
-#: model:ir.actions.server,name:accounting_firm.server_action_keep_scan_in_chatter
-msgid "Keep Scan in Chatter"
-msgstr ""
-
-#. module: accounting_firm
 #: model:ir.model.fields,field_description:accounting_firm.x_aml_last_update_field_res_partner
 msgid "Last Update"
 msgstr "อัปเดตครั้งล่าสุด"
@@ -733,6 +746,13 @@ msgstr "อัปเดตครั้งล่าสุด"
 #: model:ir.model.fields,field_description:accounting_firm.x_level_field_x_aml_risk
 msgid "Level"
 msgstr "ระดับ"
+
+#. module: accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
+msgid ""
+"Leverage the contact filters to follow up on expiring documents and renew "
+"request easily."
+msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.res_partner_form_customization_view
@@ -1183,11 +1203,6 @@ msgid "Saving the task will report this time in the sale order for billing."
 msgstr ""
 
 #. module: accounting_firm
-#: model:ir.model.fields,field_description:accounting_firm.x_id_scan_field_res_partner
-msgid "Scan"
-msgstr "สแกน"
-
-#. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "Select the Request UBO from the gear icon (⚙️) menu."
 msgstr ""
@@ -1253,9 +1268,21 @@ msgid ""
 msgstr ""
 
 #. module: accounting_firm
+#: model:ir.model.fields,field_description:accounting_firm.x_task_stage_id_field_project_task
+#: model_terms:ir.ui.view,arch_db:accounting_firm.hr_timesheet_line_form_inherit_accounting_firm
+#: model_terms:ir.ui.view,arch_db:accounting_firm.hr_timesheet_line_tree_inherit_accounting_firm
+msgid "Stage"
+msgstr ""
+
+#. module: accounting_firm
 #: model:ir.model.fields.selection,name:accounting_firm.x_level_risk_field_selection_standard
 msgid "Standard"
 msgstr "มาตรฐาน"
+
+#. module: accounting_firm
+#: model:ir.model.fields,field_description:accounting_firm.x_task_state_field_project_task
+msgid "State"
+msgstr ""
 
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
@@ -1426,12 +1453,6 @@ msgid "Update Identity Document"
 msgstr ""
 
 #. module: accounting_firm
-#: model:ir.actions.server,name:accounting_firm.server_action_update_owner_id
-#: model_terms:ir.ui.view,arch_db:accounting_firm.equity_ubo_form_view_inherited
-msgid "Update Owner ID"
-msgstr ""
-
-#. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
 "Update the captured insights as you need and then update the last update "
@@ -1457,15 +1478,10 @@ msgstr ""
 #. module: accounting_firm
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid ""
-"When filling in the identity document expiration date, you can leverage the "
-"contacts filter \"Expired IDs\" to efficiently find the IDs to update!"
-msgstr ""
-
-#. module: accounting_firm
-#: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
-msgid ""
-"When the document is available, reach the contact ID tab to fill in the "
-"contact details."
+"When the document is available, it is made available in the "
+"<strong>Documents App</strong> inbox.<br/>\n"
+"                Capture the document expiration if willing to follow up from "
+"the list view."
 msgstr ""
 
 #. module: accounting_firm
@@ -1715,6 +1731,29 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:accounting_firm.welcome_article_body
 msgid "🧮 Ultimate beneficial owners' hunt"
 msgstr ""
+
+#~ msgid ""
+#~ "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+#~ "label=\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
+#~ msgstr ""
+#~ "<i class=\"o_editor_banner_icon mb-3 fst-normal\" data-oe-aria-"
+#~ "label=\"Banner Info\" aria-label=\"Banner Info\">🔃</i>"
+
+#~ msgid "ID"
+#~ msgstr "ไอดี"
+
+#~ msgid "ID Expiration Date"
+#~ msgstr "วันหมดอายุของ ID"
+
+#~ msgid ""
+#~ "Identity management is a must do activity in your business and to support "
+#~ "you with that, the contacts encompass all the necessary."
+#~ msgstr ""
+#~ "การจัดการระบุตัวตนเป็นกิจกรรมที่จำเป็นอย่างยิ่งในธุรกิจของคุณและเพื่อสนับสนุนคุณในเรื่องนี้ "
+#~ "รายชื่อผู้ติดต่อจึงได้รวมคุณลักษณะที่จำเป็นทั้งหมดไว้แล้ว"
+
+#~ msgid "Scan"
+#~ msgstr "สแกน"
 
 #~ msgid ""
 #~ "A crucial part of business is as well making sure it is profitable. Odoo "
